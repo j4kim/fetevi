@@ -42,32 +42,31 @@
                 background-size: contain;
                 background-repeat: no-repeat;
             }
-            .bg-bottom {
-                background-position: bottom;
-            }
             .absolute {
                 position: absolute;
             }
             .relative {
                 position: relative;
             }
-            main div.title div.top {
-                min-height: 200px;
-                background-image: url(sol-4.png);
+            main header {
+                height: 80vw;
+                background-image: url(sol-4.png),
+                    linear-gradient(var(--floor-1), var(--floor-1));
                 background-color: var(--sky);
+                background-position: bottom 50vw left, top 30vw left;
             }
-            main div.title div.top div.garland-left {
+            main header div.garland-left {
                 width: 90vw;
                 height: 80vw;
                 background-image: url(guirlande-1.png);
                 background-position-x: -5vw;
                 background-position-y: -10vw;
             }
-            main div.title div.top header {
+            main header .text {
                 padding: 10vw;
                 font-size: 3vw;
             }
-            main div.title div.top div.garland-right {
+            main header div.garland-right {
                 width: 70vw;
                 height: 70vw;
                 right: 0;
@@ -76,7 +75,7 @@
                 background-position-x: 10vw;
                 background-position-y: -4vw;
             }
-            main div.title div.ground {
+            main header div.ground {
                 height: 200px;
                 background-color: var(--floor-1);
                 top: -1px;
@@ -85,35 +84,30 @@
     </head>
     <body>
         <main data-scroll-section>
-            <div
-                class="title"
+            <header
+                class="bg-contain"
                 data-scroll
                 data-scroll-speed="1"
                 data-scroll-position="top"
             >
-                <div class="top bg-contain bg-bottom">
-                    <div
-                        class="garland-left bg-contain absolute"
-                        data-scroll
-                        data-scroll-speed="2"
-                        data-scroll-position="top"
-                    ></div>
-                    <header data-scroll data-scroll-speed="0">
-                        <h1>Fête villageoise<br />des Ponts-de-Martel</h1>
-                        <h1>7 & 8 juin 2024</h1>
-                        <h2>
-                            Revenez un peu plus tard, le site n'est pas prêt 😬
-                        </h2>
-                    </header>
-                    <div
-                        class="garland-right bg-contain absolute"
-                        data-scroll
-                        data-scroll-speed="6"
-                        data-scroll-position="top"
-                    ></div>
+                <div
+                    class="garland-left bg-contain absolute"
+                    data-scroll
+                    data-scroll-speed="2"
+                    data-scroll-position="top"
+                ></div>
+                <div class="text" data-scroll data-scroll-speed="0">
+                    <h1>Fête villageoise<br />des Ponts-de-Martel</h1>
+                    <h1>7 & 8 juin 2024</h1>
+                    <h2>Revenez un peu plus tard, le site n'est pas prêt 😬</h2>
                 </div>
-                <div class="ground relative"></div>
-            </div>
+                <div
+                    class="garland-right bg-contain absolute"
+                    data-scroll
+                    data-scroll-speed="6"
+                    data-scroll-position="top"
+                ></div>
+            </header>
             <div
                 style="height: 400px; background-color: var(--floor-2)"
                 data-scroll
