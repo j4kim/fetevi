@@ -11,6 +11,18 @@
             rel="stylesheet"
         />
         <style>
+            :root {
+                --sky: #272455;
+                --floor-1: #538931;
+                --floor-2: #8a6614;
+                --floor-3: #4e3716;
+                --floor-4: #2f110e;
+            }
+            body,
+            html {
+                margin: 0;
+                padding: 0;
+            }
             header {
                 font-family: "Roboto Slab", serif;
                 font-optical-sizing: auto;
@@ -18,9 +30,15 @@
                 font-style: normal;
                 padding: 10vw;
                 font-size: 3vw;
+                background-color: var(--sky);
+                color: white;
             }
             h1 {
                 margin: 0;
+            }
+            section {
+                height: 30vh;
+                background-color: var(--floor-1);
             }
         </style>
     </head>
@@ -31,5 +49,9 @@
             <h1>7 & 8 juin 2024</h1>
             <h2>Revenez un peu plus tard, le site n'est pas prêt 😬</h2>
         </header>
+        <section style="background-color: var(--floor-1)"></section>
+        <section style="background-color: var(--floor-2)"></section>
+        <section style="background-color: var(--floor-3)"></section>
+        <section style="background-color: var(--floor-4)"></section>
     </body>
 </html>
