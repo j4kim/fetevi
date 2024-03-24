@@ -35,7 +35,6 @@
                 font-style: normal;
                 padding: 10vw;
                 font-size: 3vw;
-                background-color: var(--sky);
                 color: white;
             }
             h1 {
@@ -47,8 +46,8 @@
         </style>
     </head>
     <body data-scroll-container>
-        <div data-scroll-section>
-            <header>
+        <div data-scroll-section style="background-color: var(--floor-4)">
+            <header style="background-color: var(--sky)">
                 <h1>Fête villageoise<br />des Ponts-de-Martel</h1>
                 <h1>7 & 8 juin 2024</h1>
                 <h2>Revenez un peu plus tard, le site n'est pas prêt 😬</h2>
@@ -57,21 +56,25 @@
                 style="background-color: var(--floor-1)"
                 data-scroll
                 data-scroll-speed="1"
+                data-scroll-position="top"
             ></div>
             <div
                 style="background-color: var(--floor-2)"
                 data-scroll
                 data-scroll-speed="2"
+                data-scroll-position="top"
             ></div>
             <div
                 style="background-color: var(--floor-3)"
                 data-scroll
                 data-scroll-speed="3"
+                data-scroll-position="top"
             ></div>
             <div
                 style="background-color: var(--floor-4)"
                 data-scroll
                 data-scroll-speed="4"
+                data-scroll-position="top"
             ></div>
         </div>
         <script>
