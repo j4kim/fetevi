@@ -24,7 +24,8 @@
                 --floor-4: #2f110e;
             }
             body,
-            html {
+            html,
+            h1 {
                 margin: 0;
                 padding: 0;
             }
@@ -34,59 +35,68 @@
                 font-weight: 900;
                 color: white;
             }
-            header {
+            main {
+                background-color: var(--floor-4);
+            }
+            .bg-contain {
+                background-size: contain;
+                background-repeat: no-repeat;
+            }
+            .bg-bottom {
+                background-position: bottom;
+            }
+            .absolute {
+                position: absolute;
+            }
+            .relative {
+                position: relative;
+            }
+            main div.title div.top {
+                min-height: 200px;
+                background-image: url(sol-4.png);
+                background-color: var(--sky);
+            }
+            main div.title div.top div.garland-left {
+                width: 90vw;
+                height: 80vw;
+                background-image: url(guirlande-1.png);
+                background-position-x: -5vw;
+                background-position-y: -10vw;
+            }
+            main div.title div.top header {
                 padding: 10vw;
                 font-size: 3vw;
             }
-            h1 {
-                margin: 0;
+            main div.title div.top div.garland-right {
+                width: 70vw;
+                height: 70vw;
+                right: 0;
+                top: 0;
+                background-image: url(guirlande-2.png);
+                background-position-x: 10vw;
+                background-position-y: -4vw;
+            }
+            main div.title div.ground {
+                height: 200px;
+                background-color: var(--floor-1);
+                top: -1px;
             }
         </style>
     </head>
-    <body data-scroll-container>
-        <div data-scroll-section style="background-color: var(--floor-4)">
-            <div data-scroll data-scroll-speed="1" data-scroll-position="top">
-                <div
-                    style="
-                        min-height: 200px;
-                        background-image: url(sol-4.png);
-                        background-position: bottom;
-                        background-repeat: no-repeat;
-                        background-size: contain;
-                        background-color: var(--sky);
-                    "
-                >
+    <body>
+        <main data-scroll-section>
+            <div
+                class="title"
+                data-scroll
+                data-scroll-speed="1"
+                data-scroll-position="top"
+            >
+                <div class="top bg-contain bg-bottom">
                     <div
+                        class="garland-left bg-contain absolute"
                         data-scroll
                         data-scroll-speed="2"
                         data-scroll-position="top"
-                        style="
-                            width: 90vw;
-                            height: 80vw;
-                            position: absolute;
-                            left: 0;
-                            background-image: url(guirlande-1.png);
-                            background-repeat: no-repeat;
-                            background-size: contain;
-                            background-position-x: -5vw;
-                            background-position-y: -10vw;
-                        "
-                    ></div>
-                    <div
-                        data-scroll
-                        data-scroll-speed="4"
-                        data-scroll-position="top"
-                        style="
-                            width: 70vw;
-                            height: 70vw;
-                            position: absolute;
-                            right: 0;
-                            background-image: url(guirlande-2.png);
-                            background-repeat: no-repeat;
-                            background-size: contain;
-                            background-position-x: 10vw;
-                            background-position-y: -4vw;
-                        "
                     ></div>
                     <header data-scroll data-scroll-speed="0">
                         <h1>Fête villageoise<br />des Ponts-de-Martel</h1>
@@ -95,15 +105,14 @@
                             Revenez un peu plus tard, le site n'est pas prêt 😬
                         </h2>
                     </header>
+                    <div
+                        class="garland-right bg-contain absolute"
+                        data-scroll
+                        data-scroll-speed="6"
+                        data-scroll-position="top"
+                    ></div>
                 </div>
-                <div
-                    style="
-                        height: 200px;
-                        background-color: var(--floor-1);
-                        position: relative;
-                        top: -1px;
-                    "
-                ></div>
+                <div class="ground relative"></div>
             </div>
             <div
                 style="height: 400px; background-color: var(--floor-2)"
@@ -123,10 +132,10 @@
                 data-scroll-speed="4"
                 data-scroll-position="top"
             ></div>
-        </div>
+        </main>
         <script>
             const scroll = new LocomotiveScroll({
-                el: document.querySelector("[data-scroll-container]"),
+                el: document.body,
                 smooth: true,
                 tablet: { breakpoint: 0 },
             });
