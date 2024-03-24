@@ -28,14 +28,15 @@
                 margin: 0;
                 padding: 0;
             }
-            header {
+            body {
                 font-family: "Roboto Slab", serif;
                 font-optical-sizing: auto;
                 font-weight: 900;
-                font-style: normal;
+                color: white;
+            }
+            header > div {
                 padding: 10vw;
                 font-size: 3vw;
-                color: white;
             }
             h1 {
                 margin: 0;
@@ -48,9 +49,35 @@
     <body data-scroll-container>
         <div data-scroll-section style="background-color: var(--floor-4)">
             <header style="background-color: var(--sky)">
-                <h1>Fête villageoise<br />des Ponts-de-Martel</h1>
-                <h1>7 & 8 juin 2024</h1>
-                <h2>Revenez un peu plus tard, le site n'est pas prêt 😬</h2>
+                <img
+                    src="guirlande-1.png"
+                    data-scroll
+                    data-scroll-speed="2"
+                    data-scroll-position="top"
+                    style="
+                        width: 80vw;
+                        position: absolute;
+                        top: -100px;
+                        left: -40px;
+                    "
+                />
+                <img
+                    src="guirlande-2.png"
+                    data-scroll
+                    data-scroll-speed="4"
+                    data-scroll-position="top"
+                    style="
+                        width: 80vw;
+                        position: absolute;
+                        top: -50px;
+                        right: -120px;
+                    "
+                />
+                <div data-scroll data-scroll-speed="0">
+                    <h1>Fête villageoise<br />des Ponts-de-Martel</h1>
+                    <h1>7 & 8 juin 2024</h1>
+                    <h2>Revenez un peu plus tard, le site n'est pas prêt 😬</h2>
+                </div>
             </header>
             <div
                 style="background-color: var(--floor-1)"
