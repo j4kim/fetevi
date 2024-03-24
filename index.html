@@ -34,71 +34,91 @@
                 font-weight: 900;
                 color: white;
             }
-            header > div {
+            header {
                 padding: 10vw;
                 font-size: 3vw;
             }
             h1 {
                 margin: 0;
             }
-            [data-scroll] {
-                min-height: 30vh;
-            }
         </style>
     </head>
     <body data-scroll-container>
         <div data-scroll-section style="background-color: var(--floor-4)">
-            <header style="background-color: var(--sky)">
-                <img
-                    src="guirlande-1.png"
-                    data-scroll
-                    data-scroll-speed="2"
-                    data-scroll-position="top"
+            <div data-scroll data-scroll-speed="1" data-scroll-position="top">
+                <div
                     style="
-                        width: 80vw;
-                        position: absolute;
-                        top: -100px;
-                        left: -40px;
+                        min-height: 200px;
+                        background-image: url(sol-4.png);
+                        background-position: bottom;
+                        background-repeat: no-repeat;
+                        background-size: contain;
+                        background-color: var(--sky);
                     "
-                />
-                <img
-                    src="guirlande-2.png"
-                    data-scroll
-                    data-scroll-speed="4"
-                    data-scroll-position="top"
-                    style="
-                        width: 80vw;
-                        position: absolute;
-                        top: -50px;
-                        right: -120px;
-                    "
-                />
-                <div data-scroll data-scroll-speed="0">
-                    <h1>Fête villageoise<br />des Ponts-de-Martel</h1>
-                    <h1>7 & 8 juin 2024</h1>
-                    <h2>Revenez un peu plus tard, le site n'est pas prêt 😬</h2>
+                >
+                    <div
+                        data-scroll
+                        data-scroll-speed="2"
+                        data-scroll-position="top"
+                        style="
+                            width: 90vw;
+                            height: 80vw;
+                            position: absolute;
+                            left: 0;
+                            background-image: url(guirlande-1.png);
+                            background-repeat: no-repeat;
+                            background-size: contain;
+                            background-position-x: -5vw;
+                            background-position-y: -10vw;
+                        "
+                    ></div>
+                    <div
+                        data-scroll
+                        data-scroll-speed="4"
+                        data-scroll-position="top"
+                        style="
+                            width: 70vw;
+                            height: 70vw;
+                            position: absolute;
+                            right: 0;
+                            background-image: url(guirlande-2.png);
+                            background-repeat: no-repeat;
+                            background-size: contain;
+                            background-position-x: 10vw;
+                            background-position-y: -4vw;
+                        "
+                    ></div>
+                    <header data-scroll data-scroll-speed="0">
+                        <h1>Fête villageoise<br />des Ponts-de-Martel</h1>
+                        <h1>7 & 8 juin 2024</h1>
+                        <h2>
+                            Revenez un peu plus tard, le site n'est pas prêt 😬
+                        </h2>
+                    </header>
                 </div>
-            </header>
+                <div
+                    style="
+                        height: 200px;
+                        background-color: var(--floor-1);
+                        position: relative;
+                        top: -1px;
+                    "
+                ></div>
+            </div>
             <div
-                style="background-color: var(--floor-1)"
-                data-scroll
-                data-scroll-speed="1"
-                data-scroll-position="top"
-            ></div>
-            <div
-                style="background-color: var(--floor-2)"
+                style="height: 400px; background-color: var(--floor-2)"
                 data-scroll
                 data-scroll-speed="2"
                 data-scroll-position="top"
             ></div>
             <div
-                style="background-color: var(--floor-3)"
+                style="height: 400px; background-color: var(--floor-3)"
                 data-scroll
                 data-scroll-speed="3"
                 data-scroll-position="top"
             ></div>
             <div
-                style="background-color: var(--floor-4)"
+                style="height: 400px; background-color: var(--floor-4)"
                 data-scroll
                 data-scroll-speed="4"
                 data-scroll-position="top"
