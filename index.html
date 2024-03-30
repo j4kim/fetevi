@@ -58,14 +58,6 @@
                 position: absolute;
                 z-index: 1;
             }
-            div.garland-left {
-                width: 90vw;
-                height: 80vw;
-                top: 0;
-                background-image: url(guirlande-1.png);
-                background-position-x: -5vw;
-                background-position-y: -10vw;
-            }
             div.garland-right {
                 width: 70vw;
                 height: 70vw;
@@ -103,12 +95,14 @@
                 <h1>7 & 8 juin 2024</h1>
                 <h2>Revenez un peu plus tard, le site n'est pas prêt 😬</h2>
             </div>
-            <div
-                class="garland-left bg-contain absolute"
+            <img
+                src="garland-left.svg"
+                class="absolute"
+                style="width: 90vw; top: -10vw; left: -5vw; object-fit: contain"
                 data-scroll
                 data-scroll-speed="-2"
                 data-scroll-position="top"
-            ></div>
+            />
             <div class="background">
                 <div style="width: 100vw; height: 20vw"></div>
                 <img src="floor--1.svg" data-scroll data-scroll-speed="-4" />
