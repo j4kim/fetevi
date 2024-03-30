@@ -42,27 +42,25 @@
                     var(--floor-4) 50%
                 );
             }
-            .bg-contain {
-                background-size: contain;
-                background-repeat: no-repeat;
-            }
             .absolute {
                 position: absolute;
             }
             .relative {
                 position: relative;
             }
-            .text {
-                padding: 10vw;
-                font-size: 3vw;
-                position: absolute;
-                z-index: 1;
+            .relative {
+                display: block;
             }
-            .background {
-                position: relative;
+            .z-1 {
                 z-index: -1;
             }
-            .background img {
+            .z1 {
+                z-index: 1;
+            }
+            .z2 {
+                z-index: 2;
+            }
+            .bg img {
                 width: 100vw;
                 height: 71.428vw;
                 display: block;
@@ -76,40 +74,27 @@
         <main data-scroll-section>
             <img
                 src="garland-right.svg"
-                class="absolute"
-                style="
-                    width: 70vw;
-                    top: -4vw;
-                    right: -10vw;
-                    display: block;
-                    position: absolute;
-                    z-index: 2;
-                "
+                class="absolute block z2"
+                style="width: 70vw; top: -4vw; right: -10vw"
                 data-scroll
                 data-scroll-speed="4"
                 data-scroll-position="top"
             />
-            <div class="text">
+            <div class="text absolute z1" style="padding: 10vw; font-size: 3vw">
                 <h1>Fête villageoise<br />des Ponts-de-Martel</h1>
                 <h1>7 & 8 juin 2024</h1>
                 <h2>Revenez un peu plus tard, le site n'est pas prêt 😬</h2>
             </div>
             <img
                 src="garland-left.svg"
-                class="absolute"
-                style="
-                    width: 90vw;
-                    top: -10vw;
-                    left: -5vw;
-                    display: block;
-                    position: absolute;
-                "
+                class="absolute block"
+                style="width: 90vw; top: -10vw; left: -5vw"
                 data-scroll
                 data-scroll-speed="-3"
                 data-scroll-position="top"
             />
-            <div class="background">
-                <div style="width: 100vw; height: 20vw"></div>
+            <div class="relative z-1 bg">
+                <div style="height: 20vw"></div>
                 <img src="floor--1.svg" data-scroll data-scroll-speed="-4" />
                 <img
                     src="floor--2.svg"
