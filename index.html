@@ -51,14 +51,14 @@
             .relative {
                 display: block;
             }
-            .z-1 {
-                z-index: -1;
-            }
             .z1 {
                 z-index: 1;
             }
             .z2 {
                 z-index: 2;
+            }
+            .z3 {
+                z-index: 3;
             }
             .bg-img {
                 width: 100vw;
@@ -73,34 +73,31 @@
     <body>
         <main data-scroll-section>
             <!-- Content -->
-            <div class="absolute z1" style="padding: 10vw; font-size: 3vw">
+            <div class="absolute z2" style="padding: 10vw; font-size: 3vw">
                 <h1>Fête villageoise<br />des Ponts-de-Martel</h1>
                 <h1>7 & 8 juin 2024</h1>
                 <h2>Revenez un peu plus tard, le site n'est pas prêt 😬</h2>
             </div>
-            <!-- Decors -->
-            <div class="decors">
-                <!-- Garland right, hover text -->
-                <img
-                    src="garland-right.svg"
-                    class="absolute block z2"
-                    style="width: 70vw; top: -4vw; right: -10vw"
-                    data-scroll
-                    data-scroll-speed="4"
-                    data-scroll-position="top"
-                />
-                <!-- Garland left -->
-                <img
-                    src="garland-left.svg"
-                    class="absolute block"
-                    style="width: 90vw; top: -10vw; left: -5vw"
-                    data-scroll
-                    data-scroll-speed="-3"
-                    data-scroll-position="top"
-                />
-            </div>
+            <!-- Garland right, hover text -->
+            <img
+                src="garland-right.svg"
+                class="absolute block z3"
+                style="width: 70vw; top: -4vw; right: -10vw"
+                data-scroll
+                data-scroll-speed="4"
+                data-scroll-position="top"
+            />
+            <!-- Garland left -->
+            <img
+                src="garland-left.svg"
+                class="absolute block z1"
+                style="width: 90vw; top: -10vw; left: -5vw"
+                data-scroll
+                data-scroll-speed="-3"
+                data-scroll-position="top"
+            />
             <!-- Background -->
-            <div class="relative z-1">
+            <div class="relative">
                 <div style="height: 20vw"></div>
                 <div data-scroll data-scroll-speed="-4">
                     <!-- Trees left -->
@@ -150,8 +147,11 @@
             const scroll = new LocomotiveScroll({
                 el: document.body,
                 smooth: true,
-                tablet: { breakpoint: 0 },
+                tablet: { breakpoint: 0, smooth: true },
             });
+            setTimeout(() => {
+                scroll.update();
+            }, 1000);
         </script>
     </body>
 </html>
