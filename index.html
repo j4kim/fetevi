@@ -60,7 +60,7 @@
             .z2 {
                 z-index: 2;
             }
-            .bg img {
+            .bg-img {
                 width: 100vw;
                 height: 71.428vw;
                 display: block;
@@ -100,22 +100,33 @@
                 />
             </div>
             <!-- Background -->
-            <div class="relative z-1 bg">
+            <div class="relative z-1">
                 <div style="height: 20vw"></div>
-                <img src="floor--1.svg" data-scroll data-scroll-speed="-4" />
+                <div data-scroll data-scroll-speed="-4">
+                    <!-- Trees right -->
+                    <img
+                        src="trees-right.svg"
+                        class="absolute block z1"
+                        style="width: 55vw; right: -20vw; top: -6vw"
+                    />
+                    <img src="floor--1.svg" class="bg-img" />
+                </div>
                 <img
+                    class="bg-img"
                     src="floor--2.svg"
                     data-scroll
                     data-scroll-speed="-2"
                     style="top: -5vw"
                 />
                 <img
+                    class="bg-img"
                     src="floor--3.svg"
                     data-scroll
                     data-scroll-speed="-1"
                     style="top: -10vw"
                 />
                 <img
+                    class="bg-img"
                     src="floor--4.svg"
                     data-scroll
                     data-scroll-speed="0"
