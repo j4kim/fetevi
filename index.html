@@ -58,21 +58,11 @@
                 position: absolute;
                 z-index: 1;
             }
-            div.garland-right {
-                width: 70vw;
-                height: 70vw;
-                right: 0;
-                top: 0;
-                background-image: url(guirlande-2.png);
-                background-position-x: 10vw;
-                background-position-y: -4vw;
-                z-index: 2;
-            }
             .background {
                 position: relative;
                 z-index: -1;
             }
-            img {
+            .background img {
                 width: 100vw;
                 height: 71.428vw;
                 display: block;
@@ -84,12 +74,21 @@
     </head>
     <body>
         <main data-scroll-section>
-            <div
-                class="garland-right bg-contain absolute"
+            <img
+                src="garland-right.svg"
+                class="absolute"
+                style="
+                    width: 70vw;
+                    top: -4vw;
+                    right: -10vw;
+                    display: block;
+                    position: absolute;
+                    z-index: 2;
+                "
                 data-scroll
                 data-scroll-speed="4"
                 data-scroll-position="top"
-            ></div>
+            />
             <div class="text">
                 <h1>Fête villageoise<br />des Ponts-de-Martel</h1>
                 <h1>7 & 8 juin 2024</h1>
@@ -98,9 +97,15 @@
             <img
                 src="garland-left.svg"
                 class="absolute"
-                style="width: 90vw; top: -10vw; left: -5vw; object-fit: contain"
+                style="
+                    width: 90vw;
+                    top: -10vw;
+                    left: -5vw;
+                    display: block;
+                    position: absolute;
+                "
                 data-scroll
-                data-scroll-speed="-2"
+                data-scroll-speed="-3"
                 data-scroll-position="top"
             />
             <div class="background">
