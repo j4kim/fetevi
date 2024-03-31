@@ -110,7 +110,7 @@ $renderedContent = $converter->convert($md);
                     top: -1px;
                 "
             >
-                <p>Souvez nous sur nos réseaux:</p>
+                <p>Suivez-nous sur nos réseaux:</p>
                 <p style="display: flex; gap: 36px; justify-content: center">
                     <a
                         target="_blank"
