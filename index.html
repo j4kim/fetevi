@@ -24,7 +24,8 @@
                 --floor-4: #2f110e;
             }
             body,
-            html {
+            html,
+            p {
                 margin: 0;
                 padding: 0;
             }
@@ -50,6 +51,15 @@
             h1 div:last-child {
                 font-size: 7vw;
                 line-height: 1;
+            }
+            .sheet {
+                background-color: white;
+                padding: 20px;
+                color: #1e1e20;
+                margin-top: 30vw;
+            }
+            .sheet p:not(:last-child) {
+                margin: 0 0 20px;
             }
             main {
                 background-color: var(--sky);
@@ -89,12 +99,33 @@
     <body>
         <main data-scroll-section>
             <!-- Content -->
-            <div class="absolute z2" style="padding: 10vw; font-size: 3vw">
+            <div class="absolute z2" style="padding: 10vw">
                 <h1>
                     <div>Fête</div>
                     <div>villageoise</div>
                     <div>des Ponts-de-Martel</div>
                 </h1>
+                <div class="sheet">
+                    <p>
+                        Lorem ipsum dolor sit amet consectetur adipisicing elit.
+                        Optio tempora quod ea voluptatibus repellat ipsa impedit
+                        voluptatem cumque corporis nisi ullam, corrupti est
+                        fugit. Sit nesciunt sed consectetur alias accusantium!
+                    </p>
+                    <p>
+                        Accusamus, magni id. Harum architecto minima enim nobis
+                        illo quasi vitae! Delectus obcaecati quos vero laborum
+                        enim. Modi voluptas, ut atque, distinctio nobis vitae,
+                        dignissimos harum nemo nesciunt optio sequi!
+                    </p>
+                    <p>
+                        Ex corrupti, repudiandae labore ipsam reiciendis aut
+                        temporibus asperiores a quaerat accusamus, fuga, esse
+                        officiis quidem maxime exercitationem corporis libero in
+                        pariatur voluptate. Suscipit, iusto! Iusto molestias
+                        explicabo sapiente ex.
+                    </p>
+                </div>
             </div>
             <!-- Garland right, hover text -->
             <img
@@ -164,14 +195,14 @@
                         src="floor--4.svg"
                         style="height: 33vw"
                     />
-                    <img
-                        src="boar-date.svg"
-                        class="absolute block"
-                        style="width: 90vw; bottom: -29vw; right: -10vw"
-                    />
                 </div>
             </div>
-            <p style="margin: 0; padding: 4px; font-size: 0.8em">
+            <img
+                src="boar-date.svg"
+                class="absolute block z3"
+                style="width: 100vw; bottom: -14vw; right: -10vw"
+            />
+            <p style="padding: 4px; font-size: 0.8em">
                 <a href="https://3sdl.ch" style="color: white" target="_blank"
                     >3SDL</a
                 >
