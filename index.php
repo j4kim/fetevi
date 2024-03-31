@@ -25,6 +25,7 @@ $renderedContent = $converter->convert($md);
             rel="stylesheet"
         />
         <link rel="stylesheet" href="style.css" />
+        <link rel="icon" href="moon.svg">
     </head>
     <body>
         <main data-scroll-section>
