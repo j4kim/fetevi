@@ -10,7 +10,7 @@
 
 ---
 
-## SAMEDI 8 JUIN 2024
+## Samedi 8 juin 2024
 
 * **10:30:** Début de la ballade gourmande
     * Départ du Bugnon jusqu’à 13:00 maximum
