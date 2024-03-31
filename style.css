@@ -68,10 +68,78 @@ main {
 .z3 {
     z-index: 3;
 }
-.bg-img {
+
+header {
+    position: absolute;
+    z-index: 2;
+    padding: 10vw;
+}
+
+img#garland-right {
+    position: absolute;
+    display: block;
+    z-index: 3;
+    width: 70vw;
+    height: 35vw;
+    top: -4vw;
+    right: -10vw;
+}
+
+img#garland-left {
+    position: absolute;
+    display: block;
+    z-index: 1;
+    width: 90vw;
+    height: 61.48vw;
+    top: -10vw;
+    left: -5vw;
+}
+
+.spacer {
+    height: 20vh;
+}
+
+img#trees-left {
+    position: absolute;
+    display: block;
+    z-index: 1;
+    width: 42vw;
+    left: -13vw;
+    top: -15vw;
+}
+
+img#trees-right {
+    position: absolute;
+    display: block;
+    z-index: 1;
+    width: 55vw;
+    right: -20vw;
+    top: -6vw;
+}
+
+img#floor-1 {
     width: 100vw;
+    height: 50vw;
     display: block;
     position: relative;
     object-fit: cover;
     object-position: top;
+}
+
+div#content {
+    display: block;
+    position: relative;
+    min-height: 100vw;
+    background-image: url(floor-2-3-4.svg);
+    background-size: cover;
+    background-position: center;
+}
+
+img#front-tree-left {
+    position: absolute;
+    display: block;
+    z-index: 0;
+    width: 56vw;
+    left: -8vw;
+    top: -36vw;
 }

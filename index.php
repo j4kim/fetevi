@@ -28,10 +28,7 @@ $renderedContent = $converter->convert($md);
     </head>
     <body>
         <main data-scroll-section>
-            <!-- Header -->
             <header
-                class="absolute z2"
-                style="padding: 10vw"
                 data-scroll
                 data-scroll-speed="-1"
                 data-scroll-position="top"
@@ -42,55 +39,28 @@ $renderedContent = $converter->convert($md);
                     <div>des Ponts-de-Martel</div>
                 </h1>
             </header>
-            <!-- Garland right, hover text -->
             <img
+                id="garland-right"
                 src="garland-right.svg"
-                class="absolute block z3"
-                style="width: 70vw; height: 35vw; top: -4vw; right: -10vw"
                 data-scroll
                 data-scroll-speed="4"
                 data-scroll-position="top"
             />
-            <!-- Garland left -->
             <img
+                id="garland-left"
                 src="garland-left.svg"
-                class="absolute block z1"
-                style="width: 90vw; height: 61.48vw; top: -10vw; left: -5vw"
                 data-scroll
                 data-scroll-speed="-3"
                 data-scroll-position="top"
             />
-            <div style="height: 20vw"></div>
+            <div class="spacer"></div>
             <div data-scroll data-scroll-speed="-2">
-                <!-- Trees left -->
-                <img
-                    src="trees-left.svg"
-                    class="absolute block z1"
-                    style="width: 42vw; left: -13vw; top: -15vw"
-                />
-                <!-- Trees right -->
-                <img
-                    src="trees-right.svg"
-                    class="absolute block z1"
-                    style="width: 55vw; right: -20vw; top: -6vw"
-                />
-                <img src="floor-1.svg" class="bg-img" style="height: 50vw" />
+                <img id="trees-left" src="trees-left.svg" />
+                <img id="trees-right" src="trees-right.svg" />
+                <img id="floor-1" src="floor-1.svg" />
             </div>
-            <!-- Content -->
-            <div
-                class="relative"
-                style="
-                    min-height: 100vw;
-                    background-image: url(floor-2-3-4.svg);
-                    background-size: cover;
-                    background-position: center;
-                "
-            >
-                <img
-                    src="front-tree-left.svg"
-                    class="absolute block z0"
-                    style="width: 56vw; left: -8vw; top: -36vw"
-                />
+            <div id="content">
+                <img id="front-tree-left" src="front-tree-left.svg" />
                 <div
                     class="relative z2"
                     style="padding: 0 10vw 32vw; top: -15vw"
