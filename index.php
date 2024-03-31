@@ -107,6 +107,7 @@ $renderedContent = $converter->convert($md);
                     color: #1e1e20;
                     padding: 5vw 20vw;
                     text-align: center;
+                    top: -1px;
                 "
             >
                 <p>Souvez nous sur nos réseaux:</p>
