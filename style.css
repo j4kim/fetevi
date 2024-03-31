@@ -1,0 +1,77 @@
+:root {
+    --sky: #272455;
+    --floor-1: #538931;
+    --floor-2: #8a6614;
+    --floor-3: #4e3716;
+    --floor-4: #2f110e;
+}
+body,
+html {
+    margin: 0;
+    padding: 0;
+}
+body {
+    font-family: "Roboto Slab", serif;
+    font-optical-sizing: auto;
+    color: white;
+}
+h1 {
+    transform: skewY(-12deg);
+    line-height: 0.9;
+    margin: 10vw 0;
+    font-weight: 900;
+}
+h1 div:first-child {
+    font-size: 18vw;
+    text-transform: uppercase;
+}
+h1 div:nth-child(2) {
+    font-size: 12vw;
+    text-transform: uppercase;
+}
+h1 div:last-child {
+    font-size: 7vw;
+    line-height: 1;
+}
+.sheet {
+    background-color: white;
+    padding: 20px;
+    color: #1e1e20;
+}
+.sheet p:not(:last-child) {
+    margin: 0 0 20px;
+}
+main {
+    background-color: var(--sky);
+    background-image: linear-gradient(
+        var(--sky) 25%,
+        var(--floor-1) 25%,
+        var(--floor-1) 66%,
+        var(--floor-4) 66%
+    );
+}
+.absolute {
+    position: absolute;
+}
+.relative {
+    position: relative;
+}
+.relative {
+    display: block;
+}
+.z1 {
+    z-index: 1;
+}
+.z2 {
+    z-index: 2;
+}
+.z3 {
+    z-index: 3;
+}
+.bg-img {
+    width: 100vw;
+    display: block;
+    position: relative;
+    object-fit: cover;
+    object-position: top;
+}
