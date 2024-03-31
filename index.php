@@ -29,7 +29,7 @@ $renderedContent = $converter->convert($md);
     <body>
         <main data-scroll-section>
             <!-- Header -->
-            <div
+            <header
                 class="absolute z2"
                 style="padding: 10vw"
                 data-scroll
@@ -41,7 +41,7 @@ $renderedContent = $converter->convert($md);
                     <div>villageoise</div>
                     <div>des Ponts-de-Martel</div>
                 </h1>
-            </div>
+            </header>
             <!-- Garland right, hover text -->
             <img
                 src="garland-right.svg"
@@ -93,7 +93,7 @@ $renderedContent = $converter->convert($md);
                 />
                 <div
                     class="relative z2"
-                    style="padding: 0 10vw 35vw; top: -15vw"
+                    style="padding: 0 10vw 32vw; top: -15vw"
                 >
                     <img
                         src="owl.svg"

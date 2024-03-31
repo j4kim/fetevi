@@ -15,21 +15,21 @@ body {
     font-optical-sizing: auto;
     color: white;
 }
-h1 {
+header h1 {
     transform: skewY(-12deg);
     line-height: 0.9;
     margin: 10vw 0;
     font-weight: 900;
 }
-h1 div:first-child {
+header h1 div:first-child {
     font-size: 18vw;
     text-transform: uppercase;
 }
-h1 div:nth-child(2) {
+header h1 div:nth-child(2) {
     font-size: 12vw;
     text-transform: uppercase;
 }
-h1 div:last-child {
+header h1 div:last-child {
     font-size: 7vw;
     line-height: 1;
 }
