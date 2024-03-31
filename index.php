@@ -105,7 +105,7 @@ $renderedContent = $converter->convert($md);
                 style="
                     background-color: white;
                     color: #1e1e20;
-                    padding: 5vw 20vw;
+                    padding: 2vw 20vw 4vw;
                     text-align: center;
                     top: -1px;
                 "
