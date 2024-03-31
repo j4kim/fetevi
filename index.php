@@ -1,3 +1,12 @@
+<?php
+require_once 'vendor/autoload.php';
+use League\CommonMark\CommonMarkConverter;
+
+$converter = new CommonMarkConverter();
+$md = file_get_contents('content.md');
+$renderedContent = $converter->convert($md);
+?>
+
 <!DOCTYPE html>
 <html lang="en">
     <head>
@@ -106,34 +115,7 @@
                         "
                     />
                     <div class="sheet relative">
-                        <p>
-                            Magni quas id dignissimos eaque blanditiis doloribus
-                            minima, dolores mollitia earum dolorum cupiditate,
-                            ipsam rem aliquid consequatur vitae repellat
-                            perferendis! Minus doloremque nam nulla soluta
-                            ullam, quasi sed natus dolorem.
-                        </p>
-                        <p>
-                            Lorem ipsum dolor sit amet, consectetur adipisicing
-                            elit. Aspernatur pariatur hic sint. Dolore
-                            architecto cumque libero perferendis sit, natus
-                            molestiae porro, cupiditate illum veniam aspernatur
-                            error ratione quam vel eaque!
-                        </p>
-                        <p>
-                            Delectus, assumenda fugiat nemo officia sequi atque
-                            dicta ab labore eum ducimus est commodi suscipit
-                            omnis, nobis, vitae neque voluptatum aut dolores
-                            libero ea inventore maxime. Exercitationem, vel?
-                            Nisi, veritatis!
-                        </p>
-                        <p>
-                            Perferendis ipsa eius sed quasi amet. Amet est
-                            libero eos velit, explicabo, odio culpa vel enim
-                            quaerat doloremque, itaque debitis quisquam sint
-                            ratione. Amet voluptates earum velit excepturi dolor
-                            unde!
-                        </p>
+                        <?= $renderedContent ?>
                     </div>
                 </div>
                 <img
