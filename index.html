@@ -63,8 +63,10 @@
             main {
                 background-color: var(--sky);
                 background-image: linear-gradient(
-                    var(--sky) 50%,
-                    var(--floor-4) 50%
+                    var(--sky) 33%,
+                    var(--floor-1) 33%,
+                    var(--floor-1) 66%,
+                    var(--floor-4) 66%
                 );
             }
             .absolute {
@@ -87,7 +89,6 @@
             }
             .bg-img {
                 width: 100vw;
-                height: 71.428vw;
                 display: block;
                 position: relative;
                 object-fit: cover;
@@ -97,7 +98,7 @@
     </head>
     <body>
         <main data-scroll-section>
-            <!-- Content -->
+            <!-- Header -->
             <div class="absolute z2" style="padding: 10vw">
                 <h1>
                     <div>Fête</div>
@@ -124,7 +125,7 @@
                 data-scroll-position="top"
             />
             <div style="height: 20vw"></div>
-            <div data-scroll data-scroll-speed="-4">
+            <div data-scroll data-scroll-speed="-2">
                 <!-- Trees left -->
                 <img
                     src="trees-left.svg"
@@ -137,36 +138,24 @@
                     class="absolute block z1"
                     style="width: 55vw; right: -20vw; top: -6vw"
                 />
-                <img src="floor--1.svg" class="bg-img" />
+                <img src="floor-1.svg" class="bg-img" style="height: 50vw" />
             </div>
+            <!-- Content -->
             <div
                 data-scroll
-                data-scroll-speed="-2"
-                style="top: -5vw"
+                data-scroll-speed="1"
                 class="relative"
+                style="
+                    min-height: 100vw;
+                    background-image: url(floor-2-3-4.svg);
+                    background-size: cover;
+                "
             >
                 <img
                     src="front-tree-left.svg"
                     class="absolute block z1"
                     style="width: 56vw; left: -8vw; top: -36vw"
                 />
-                <img class="bg-img" src="floor--2.svg" />
-            </div>
-            <div
-                data-scroll
-                data-scroll-speed="-1"
-                style="top: -10vw"
-                class="relative"
-            >
-                <img class="bg-img" src="floor--3.svg" />
-            </div>
-            <div
-                data-scroll
-                data-scroll-speed="0"
-                style="top: -15vw"
-                class="relative"
-            >
-                <img class="bg-img" src="floor--4.svg" style="height: 33vw" />
             </div>
             <img
                 src="boar-date.svg"
