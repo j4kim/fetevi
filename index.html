@@ -24,16 +24,32 @@
                 --floor-4: #2f110e;
             }
             body,
-            html,
-            h1 {
+            html {
                 margin: 0;
                 padding: 0;
             }
             body {
                 font-family: "Roboto Slab", serif;
                 font-optical-sizing: auto;
-                font-weight: 900;
                 color: white;
+            }
+            h1 {
+                transform: skewY(-12deg);
+                line-height: 0.9;
+                margin: 10vw 0;
+                font-weight: 900;
+            }
+            h1 div:first-child {
+                font-size: 18vw;
+                text-transform: uppercase;
+            }
+            h1 div:nth-child(2) {
+                font-size: 12vw;
+                text-transform: uppercase;
+            }
+            h1 div:last-child {
+                font-size: 7vw;
+                line-height: 1;
             }
             main {
                 background-color: var(--sky);
@@ -74,9 +90,11 @@
         <main data-scroll-section>
             <!-- Content -->
             <div class="absolute z2" style="padding: 10vw; font-size: 3vw">
-                <h1>Fête villageoise<br />des Ponts-de-Martel</h1>
-                <h1>7 & 8 juin 2024</h1>
-                <h2>Revenez un peu plus tard, le site n'est pas prêt 😬</h2>
+                <h1>
+                    <div>Fête</div>
+                    <div>villageoise</div>
+                    <div>des Ponts-de-Martel</div>
+                </h1>
             </div>
             <!-- Garland right, hover text -->
             <img
