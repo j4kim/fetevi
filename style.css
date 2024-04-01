@@ -11,13 +11,12 @@ body,
 html {
     margin: 0;
     padding: 0;
+    overflow-x: hidden;
 }
 
 body {
     font-family: "Roboto Slab", serif;
     font-optical-sizing: auto;
-    color: white;
-    overflow-x: hidden;
 }
 
 main {
@@ -34,6 +33,7 @@ header {
     position: absolute;
     z-index: 2;
     padding: 0 10vw;
+    color: white;
 }
 header h1 {
     transform: skewY(-12deg);
@@ -76,10 +76,9 @@ header h1 div:last-child {
 }
 
 img#garland-right {
-    width: 70vw;
     height: 35vw;
     top: -4vw;
-    right: -10vw;
+    right: 0;
 }
 
 img#garland-left {
