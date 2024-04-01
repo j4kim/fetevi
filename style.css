@@ -127,8 +127,7 @@ img#front-tree-left {
 }
 
 div#inner {
-    padding: 20vw 10vw 10vw;
-    padding: 0 10vw 32vw;
+    padding: 0 var(--inner-padding, 10vw) var(--inner-padding-bottom, 32vw);
     top: -15vw;
 }
 
@@ -155,7 +154,7 @@ article p:not(:last-child) {
 }
 
 img#boar {
-    width: 100vw;
+    width: var(--boar-width, 100vw);
     bottom: -14vw;
     right: -10vw;
 }
@@ -200,6 +199,7 @@ footer {
     :root {
         --font-size: 1.35rem;
         --header-margin: 12vw;
+        --inner-padding: 14vw;
     }
 }
 
@@ -207,5 +207,15 @@ footer {
     :root {
         --font-size: 1.4rem;
         --header-margin: 8vw;
+        --inner-padding: 20vw;
+        --boar-width: 80vw;
+        --inner-padding-bottom: 18vw;
+    }
+}
+
+@media (min-width: 1500px) {
+    :root {
+        --font-size: 1.5rem;
+        --inner-padding: 24vw;
     }
 }
