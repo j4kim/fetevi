@@ -200,6 +200,9 @@ footer {
     color: white;
     background-color: var(--floor-3);
 }
+.content ul {
+    padding-inline-start: 1.5rem;
+}
 
 @media (min-width: 840px) {
     :root {
