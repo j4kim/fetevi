@@ -52,7 +52,7 @@ $renderedFooter = $converter->convert(file_get_contents('footer.md'));
                 data-scroll-speed=".1"
             />
             <div class="spacer"></div>
-            <div data-scroll data-scroll-speed="-0.2">
+            <div data-scroll data-scroll-speed="-0.15">
                 <img id="trees-left" src="trees-left.svg" class="absolute z1" />
                 <img id="trees-right" src="trees-right.svg" class="absolute z1" />
                 <img id="floor-1" src="floor-1.svg" class="relative z0" />
