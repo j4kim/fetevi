@@ -110,7 +110,7 @@ img#floor-1 {
     object-position: top;
 }
 
-div#content {
+div#main-content {
     min-height: 100vw;
     background-image: url(floor-2-3-4.svg);
     background-size: cover;
@@ -144,7 +144,7 @@ img#owl-feets {
 }
 
 article {
-    padding: 20px;
+    padding: 5vw;
 }
 
 article p:not(:last-child) {
@@ -168,7 +168,12 @@ footer {
     top: -1px;
 }
 
-.white {
+.content {
     background-color: white;
     color: #1e1e20;
+    font-size: 1.25rem;
+    line-height: 1.6;
+}
+.content small {
+    font-size: 0.8rem;
 }

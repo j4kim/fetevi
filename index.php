@@ -63,17 +63,17 @@ $renderedFooter = $converter->convert(file_get_contents('footer.md'));
                 <img id="trees-right" src="trees-right.svg" class="absolute z1" />
                 <img id="floor-1" src="floor-1.svg" class="relative z0" />
             </div>
-            <div id="content" class="relative">
+            <div id="main-content" class="relative">
                 <img id="front-tree-left" src="front-tree-left.svg" class="absolute z0" />
                 <div id="inner" class="relative z2">
                     <img id="owl" src="owl.svg" />
                     <img id="owl-feets" src="owl-feets.svg" class="z3" />
-                    <article class="white relative"><?= $renderedContent ?></article>
+                    <article class="content relative"><?= $renderedContent ?></article>
                 </div>
                 <img id="boar" src="boar-date.svg" class="absolute z2" />
             </div>
             <img id="bottom" src="bottom.svg" class="relative z3" />
-            <footer class="relative z3 white"><?= $renderedFooter ?></footer>
+            <footer class="relative z3 content"><?= $renderedFooter ?></footer>
         </main>
         <script>
             const scroll = new LocomotiveScroll({
