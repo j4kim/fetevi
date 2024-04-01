@@ -1,0 +1,13 @@
+{
+    "name": "IK",
+    "host": "gegq.ftp.infomaniak.com",
+    "protocol": "ftp",
+    "port": 21,
+    "username": "gegq_fetevi",
+    "password": "secret",
+    "remotePath": "/preview/",
+    "uploadOnSave": false,
+    "useTempFile": false,
+    "openSsh": false,
+    "ignore": [".vscode", ".git", ".gitignore", "composer.json", "composer.lock", "README.md"]
+}
