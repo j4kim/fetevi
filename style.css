@@ -33,14 +33,6 @@ header h1 div:last-child {
     font-size: 7vw;
     line-height: 1;
 }
-.sheet {
-    background-color: white;
-    padding: 20px;
-    color: #1e1e20;
-}
-.sheet p:not(:last-child) {
-    margin: 0 0 20px;
-}
 main {
     background-color: var(--sky);
     background-image: linear-gradient(
@@ -49,24 +41,6 @@ main {
         var(--floor-1) 66%,
         var(--floor-4) 66%
     );
-}
-.absolute {
-    position: absolute;
-}
-.relative {
-    position: relative;
-}
-.relative {
-    display: block;
-}
-.z1 {
-    z-index: 1;
-}
-.z2 {
-    z-index: 2;
-}
-.z3 {
-    z-index: 3;
 }
 
 header {
@@ -142,4 +116,66 @@ img#front-tree-left {
     width: 56vw;
     left: -8vw;
     top: -36vw;
+}
+
+div#inner {
+    display: block;
+    position: relative;
+    z-index: 2;
+    padding: 20vw 10vw 10vw;
+    padding: 0 10vw 32vw;
+    top: -15vw;
+}
+
+img#owl {
+    width: 25vw;
+    position: relative;
+    bottom: -11vw;
+    left: -6vw;
+}
+
+img#owl-feets {
+    width: 7vw;
+    position: relative;
+    bottom: -4vw;
+    left: -25vw;
+    z-index: 3;
+}
+
+article {
+    background-color: white;
+    padding: 20px;
+    color: #1e1e20;
+    position: relative;
+}
+
+article p:not(:last-child) {
+    margin: 0 0 20px;
+}
+
+img#boar {
+    position: absolute;
+    display: block;
+    z-index: 2;
+    width: 100vw;
+    bottom: -14vw;
+    right: -10vw;
+}
+
+img#bottom {
+    position: relative;
+    display: block;
+    z-index: 3;
+    width: 110vw;
+    left: -5vw;
+}
+
+footer {
+    position: relative;
+    z-index: 3;
+    background-color: white;
+    color: #1e1e20;
+    padding: 2vw 20vw 4vw;
+    text-align: center;
+    top: -1px;
 }

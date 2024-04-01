@@ -62,54 +62,15 @@ $renderedContent = $converter->convert($md);
             </div>
             <div id="content">
                 <img id="front-tree-left" src="front-tree-left.svg" />
-                <div
-                    class="relative z2"
-                    style="padding: 0 10vw 32vw; top: -15vw"
-                >
-                    <img
-                        src="owl.svg"
-                        style="
-                            width: 25vw;
-                            position: relative;
-                            bottom: -11vw;
-                            left: -6vw;
-                        "
-                    />
-                    <img
-                        class="z3"
-                        src="owl-feets.svg"
-                        style="
-                            width: 7vw;
-                            position: relative;
-                            bottom: -4vw;
-                            left: -25vw;
-                        "
-                    />
-                    <div class="sheet relative">
-                        <?= $renderedContent ?>
-                    </div>
+                <div id="inner">
+                    <img id="owl" src="owl.svg" />
+                    <img id="owl-feets" src="owl-feets.svg" />
+                    <article><?= $renderedContent ?></article>
                 </div>
-                <img
-                    src="boar-date.svg"
-                    class="absolute block z2"
-                    style="width: 100vw; bottom: -14vw; right: -10vw"
-                />
+                <img id="boar" src="boar-date.svg" />
             </div>
-            <img
-                src="bottom.svg"
-                class="relative z3"
-                style="width: 110vw; left: -5vw"
-            />
-            <footer
-                class="relative z3"
-                style="
-                    background-color: white;
-                    color: #1e1e20;
-                    padding: 2vw 20vw 4vw;
-                    text-align: center;
-                    top: -1px;
-                "
-            >
+            <img id="bottom" src="bottom.svg" />
+            <footer>
                 <p>Suivez-nous sur nos réseaux:</p>
                 <p style="display: flex; gap: 36px; justify-content: center">
                     <a
