@@ -51,7 +51,7 @@ $renderedContent = $converter->convert($md);
                 id="garland-left"
                 src="garland-left.svg"
                 data-scroll
-                data-scroll-speed="-3"
+                data-scroll-speed="1"
                 data-scroll-position="top"
             />
             <div class="spacer"></div>
