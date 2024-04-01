@@ -44,6 +44,7 @@ $renderedFooter = $converter->convert(file_get_contents('footer.md'));
             <img
                 id="garland-right"
                 src="garland-right.svg"
+                class="absolute z3"
                 data-scroll
                 data-scroll-speed="4"
                 data-scroll-position="top"
@@ -51,27 +52,28 @@ $renderedFooter = $converter->convert(file_get_contents('footer.md'));
             <img
                 id="garland-left"
                 src="garland-left.svg"
+                class="absolute z1"
                 data-scroll
                 data-scroll-speed="1"
                 data-scroll-position="top"
             />
             <div class="spacer"></div>
             <div data-scroll data-scroll-speed="-2">
-                <img id="trees-left" src="trees-left.svg" />
-                <img id="trees-right" src="trees-right.svg" />
-                <img id="floor-1" src="floor-1.svg" />
+                <img id="trees-left" src="trees-left.svg" class="absolute z1" />
+                <img id="trees-right" src="trees-right.svg" class="absolute z1" />
+                <img id="floor-1" src="floor-1.svg" class="relative z0" />
             </div>
-            <div id="content">
-                <img id="front-tree-left" src="front-tree-left.svg" />
-                <div id="inner">
+            <div id="content" class="relative">
+                <img id="front-tree-left" src="front-tree-left.svg" class="absolute z0" />
+                <div id="inner" class="relative z2">
                     <img id="owl" src="owl.svg" />
-                    <img id="owl-feets" src="owl-feets.svg" />
-                    <article><?= $renderedContent ?></article>
+                    <img id="owl-feets" src="owl-feets.svg" class="z3" />
+                    <article class="white relative"><?= $renderedContent ?></article>
                 </div>
-                <img id="boar" src="boar-date.svg" />
+                <img id="boar" src="boar-date.svg" class="absolute z2" />
             </div>
-            <img id="bottom" src="bottom.svg" />
-            <footer><?= $renderedFooter ?></footer>
+            <img id="bottom" src="bottom.svg" class="relative z3" />
+            <footer class="relative z3 white"><?= $renderedFooter ?></footer>
         </main>
         <script>
             const scroll = new LocomotiveScroll({

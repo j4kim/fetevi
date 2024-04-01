@@ -5,15 +5,33 @@
     --floor-3: #4e3716;
     --floor-4: #2f110e;
 }
+
 body,
 html {
     margin: 0;
     padding: 0;
 }
+
 body {
     font-family: "Roboto Slab", serif;
     font-optical-sizing: auto;
     color: white;
+}
+
+main {
+    background-color: var(--sky);
+    background-image: linear-gradient(
+        var(--sky) 25%,
+        var(--floor-1) 25%,
+        var(--floor-1) 66%,
+        var(--floor-4) 66%
+    );
+}
+
+header {
+    position: absolute;
+    z-index: 2;
+    padding: 10vw;
 }
 header h1 {
     transform: skewY(-12deg);
@@ -33,26 +51,29 @@ header h1 div:last-child {
     font-size: 7vw;
     line-height: 1;
 }
-main {
-    background-color: var(--sky);
-    background-image: linear-gradient(
-        var(--sky) 25%,
-        var(--floor-1) 25%,
-        var(--floor-1) 66%,
-        var(--floor-4) 66%
-    );
-}
 
-header {
+.absolute {
     position: absolute;
+    display: block;
+}
+.relative {
+    position: relative;
+    display: block;
+}
+.z0 {
+    z-index: 0;
+}
+.z1 {
+    z-index: 1;
+}
+.z2 {
     z-index: 2;
-    padding: 10vw;
+}
+.z3 {
+    z-index: 3;
 }
 
 img#garland-right {
-    position: absolute;
-    display: block;
-    z-index: 3;
     width: 70vw;
     height: 35vw;
     top: -4vw;
@@ -60,9 +81,6 @@ img#garland-right {
 }
 
 img#garland-left {
-    position: absolute;
-    display: block;
-    z-index: 1;
     width: 90vw;
     height: 61.48vw;
     top: -10vw;
@@ -74,18 +92,12 @@ img#garland-left {
 }
 
 img#trees-left {
-    position: absolute;
-    display: block;
-    z-index: 1;
     width: 42vw;
     left: -13vw;
     top: -15vw;
 }
 
 img#trees-right {
-    position: absolute;
-    display: block;
-    z-index: 1;
     width: 55vw;
     right: -20vw;
     top: -6vw;
@@ -94,15 +106,11 @@ img#trees-right {
 img#floor-1 {
     width: 100vw;
     height: 50vw;
-    display: block;
-    position: relative;
     object-fit: cover;
     object-position: top;
 }
 
 div#content {
-    display: block;
-    position: relative;
     min-height: 100vw;
     background-image: url(floor-2-3-4.svg);
     background-size: cover;
@@ -110,18 +118,12 @@ div#content {
 }
 
 img#front-tree-left {
-    position: absolute;
-    display: block;
-    z-index: 0;
     width: 56vw;
     left: -8vw;
     top: -36vw;
 }
 
 div#inner {
-    display: block;
-    position: relative;
-    z-index: 2;
     padding: 20vw 10vw 10vw;
     padding: 0 10vw 32vw;
     top: -15vw;
@@ -139,14 +141,10 @@ img#owl-feets {
     position: relative;
     bottom: -4vw;
     left: -25vw;
-    z-index: 3;
 }
 
 article {
-    background-color: white;
     padding: 20px;
-    color: #1e1e20;
-    position: relative;
 }
 
 article p:not(:last-child) {
@@ -154,28 +152,23 @@ article p:not(:last-child) {
 }
 
 img#boar {
-    position: absolute;
-    display: block;
-    z-index: 2;
     width: 100vw;
     bottom: -14vw;
     right: -10vw;
 }
 
 img#bottom {
-    position: relative;
-    display: block;
-    z-index: 3;
     width: 110vw;
     left: -5vw;
 }
 
 footer {
-    position: relative;
-    z-index: 3;
-    background-color: white;
-    color: #1e1e20;
     padding: 2vw 20vw 4vw;
     text-align: center;
     top: -1px;
+}
+
+.white {
+    background-color: white;
+    color: #1e1e20;
 }
