@@ -16,6 +16,7 @@
     * Départ du Bugnon jusqu’à 13:00 maximum
     * Sur inscription ci-dessous:  
     <a class="btn" href="https://forms.gle/AqY9ZGA2ipQvoPmx8" target="_blank">Formulaire d'inscription</a>
-* **17:00:** Bipédibus revisitée
-    * Course relai en binôme enfant-adulte 22:00 Soirée
+* **17:00:** Bipédibus revisité
+    * Course relai en binôme enfant-adulte
+* **22:00** Soirée
     * DJ Rumo !!!
