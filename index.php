@@ -72,8 +72,6 @@ $renderedFooter = $converter->convert(file_get_contents('footer.md'));
         <script>
             const scroll = new LocomotiveScroll({
                 lenisOptions: {
-                    wrapper: document.body,
-                    content: document.querySelector("main"),
                     smoothTouch: true,
                 }
             });
