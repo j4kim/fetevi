@@ -20,8 +20,8 @@ $renderedFooter = $converter->convert(file_get_contents('footer.md'));
             href="https://fonts.googleapis.com/css2?family=Roboto+Slab:wght@100..900&display=swap"
             rel="stylesheet"
         />
-        <script src="https://cdn.jsdelivr.net/npm/locomotive-scroll@beta/bundled/locomotive-scroll.min.js"></script>
-        <link rel="stylesheet"  href="locomotive-scroll.css" />
+        <script src="lib/locomotive-scroll.min.js"></script>
+        <link rel="stylesheet"  href="lib/locomotive-scroll.css" />
         <link rel="stylesheet" href="style.css" />
         <link rel="icon" href="svg/moon.svg">
     </head>
