@@ -1,4 +1,4 @@
-## Vendredi 7 juin 2024
+### Vendredi 7 juin 2024
 
 * **18:00:** Ouverture de la fête
     * Afterwork
@@ -10,7 +10,7 @@
 
 ---
 
-## Samedi 8 juin 2024
+### Samedi 8 juin 2024
 
 * **10:30:** Début de la ballade gourmande
     * Départ du Bugnon jusqu’à 13:00 maximum
