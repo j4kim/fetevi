@@ -20,11 +20,8 @@ $renderedFooter = $converter->convert(file_get_contents('footer.md'));
             href="https://fonts.googleapis.com/css2?family=Roboto+Slab:wght@100..900&display=swap"
             rel="stylesheet"
         />
-        <script src="https://cdn.jsdelivr.net/npm/locomotive-scroll@4.1.4/dist/locomotive-scroll.min.js"></script>
-        <link
-            href="https://cdn.jsdelivr.net/npm/locomotive-scroll@4.1.4/dist/locomotive-scroll.min.css"
-            rel="stylesheet"
-        />
+        <script src="https://cdn.jsdelivr.net/npm/locomotive-scroll@beta/bundled/locomotive-scroll.min.js"></script>
+        <link rel="stylesheet"  href="locomotive-scroll.css" />
         <link rel="stylesheet" href="style.css" />
         <link rel="icon" href="moon.svg">
     </head>
@@ -32,8 +29,7 @@ $renderedFooter = $converter->convert(file_get_contents('footer.md'));
         <main data-scroll-section>
             <header
                 data-scroll
-                data-scroll-speed="-1"
-                data-scroll-position="top"
+                data-scroll-speed="-0.1"
             >
                 <h1>
                     <div>Fête</div>
@@ -46,19 +42,17 @@ $renderedFooter = $converter->convert(file_get_contents('footer.md'));
                 src="garland-right.svg"
                 class="absolute z3"
                 data-scroll
-                data-scroll-speed="4"
-                data-scroll-position="top"
+                data-scroll-speed=".4"
             />
             <img
                 id="garland-left"
                 src="garland-left.svg"
                 class="absolute z1"
                 data-scroll
-                data-scroll-speed="1"
-                data-scroll-position="top"
+                data-scroll-speed=".1"
             />
             <div class="spacer"></div>
-            <div data-scroll data-scroll-speed="-2">
+            <div data-scroll data-scroll-speed="-0.15">
                 <img id="trees-left" src="trees-left.svg" class="absolute z1" />
                 <img id="trees-right" src="trees-right.svg" class="absolute z1" />
                 <img id="floor-1" src="floor-1.svg" class="relative z0" />
@@ -77,13 +71,10 @@ $renderedFooter = $converter->convert(file_get_contents('footer.md'));
         </main>
         <script>
             const scroll = new LocomotiveScroll({
-                el: document.body,
-                smooth: true,
-                tablet: { breakpoint: 0, smooth: true },
+                lenisOptions: {
+                    smoothTouch: true,
+                }
             });
-            setTimeout(() => {
-                scroll.update();
-            }, 1000);
         </script>
     </body>
 </html>

@@ -14,7 +14,8 @@
 
 * **10:30:** Début de la ballade gourmande
     * Départ du Bugnon jusqu’à 13:00 maximum
-    * Sur inscription [ici](https://forms.gle/AqY9ZGA2ipQvoPmx8) ou dans les commerces du village
+    * Sur inscription ci dessous:  
+    <a class="btn" href="https://forms.gle/AqY9ZGA2ipQvoPmx8" target="_blank">Formulaire d'inscription à la ballade gourmande</a>
 * **17:00:** Bipédibus revisitée
     * Course relai en binôme enfant-adulte 22:00 Soirée
     * DJ Rumo !!!
