@@ -72,7 +72,7 @@ $renderedFooter = $converter->convert(file_get_contents('footer.md'));
         <script>
             const scroll = new LocomotiveScroll({
                 wrapper: document.body,
-                content: document.querySelector
+                content: document.querySelector("main"),
             });
         </script>
     </body>
