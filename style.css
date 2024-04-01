@@ -16,6 +16,7 @@ body {
     font-family: "Roboto Slab", serif;
     font-optical-sizing: auto;
     color: white;
+    overflow-x: hidden;
 }
 
 main {
