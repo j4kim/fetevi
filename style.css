@@ -116,6 +116,7 @@ div#main-content {
     background-image: url(floor-2-3-4.svg);
     background-size: cover;
     background-position: center;
+    background-color: var(--floor-1);
 }
 
 img#front-tree-left {
