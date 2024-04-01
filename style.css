@@ -113,7 +113,7 @@ img#floor-1 {
 
 div#main-content {
     min-height: 100vw;
-    background-image: url(floor-2-3-4.svg);
+    background-image: url(svg/floor-2-3-4.svg);
     background-size: cover;
     background-position: center;
     background-color: var(--floor-1);

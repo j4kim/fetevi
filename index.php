@@ -23,7 +23,7 @@ $renderedFooter = $converter->convert(file_get_contents('footer.md'));
         <script src="https://cdn.jsdelivr.net/npm/locomotive-scroll@beta/bundled/locomotive-scroll.min.js"></script>
         <link rel="stylesheet"  href="locomotive-scroll.css" />
         <link rel="stylesheet" href="style.css" />
-        <link rel="icon" href="moon.svg">
+        <link rel="icon" href="svg/moon.svg">
     </head>
     <body>
         <main data-scroll-section>
@@ -39,34 +39,34 @@ $renderedFooter = $converter->convert(file_get_contents('footer.md'));
             </header>
             <img
                 id="garland-right"
-                src="garland-right.svg"
+                src="svg/garland-right.svg"
                 class="absolute z3"
                 data-scroll
                 data-scroll-speed=".4"
             />
             <img
                 id="garland-left"
-                src="garland-left.svg"
+                src="svg/garland-left.svg"
                 class="absolute z1"
                 data-scroll
                 data-scroll-speed=".1"
             />
             <div class="spacer"></div>
             <div data-scroll data-scroll-speed="-0.15">
-                <img id="trees-left" src="trees-left.svg" class="absolute z1" />
-                <img id="trees-right" src="trees-right.svg" class="absolute z1" />
-                <img id="floor-1" src="floor-1.svg" class="relative z0" />
+                <img id="trees-left" src="svg/trees-left.svg" class="absolute z1" />
+                <img id="trees-right" src="svg/trees-right.svg" class="absolute z1" />
+                <img id="floor-1" src="svg/floor-1.svg" class="relative z0" />
             </div>
             <div id="main-content" class="relative">
-                <img id="front-tree-left" src="front-tree-left.svg" class="absolute z0" />
+                <img id="front-tree-left" src="svg/front-tree-left.svg" class="absolute z0" />
                 <div id="inner" class="relative z2">
-                    <img id="owl" src="owl.svg" />
-                    <img id="owl-feets" src="owl-feets.svg" class="z3" />
+                    <img id="owl" src="svg/owl.svg" />
+                    <img id="owl-feets" src="svg/owl-feets.svg" class="z3" />
                     <article class="content relative"><?= $renderedContent ?></article>
                 </div>
-                <img id="boar" src="boar-date.svg" class="absolute z2" />
+                <img id="boar" src="svg/boar-date.svg" class="absolute z2" />
             </div>
-            <img id="bottom" src="bottom.svg" class="relative z3" />
+            <img id="bottom" src="svg/bottom.svg" class="relative z3" />
             <footer class="relative z3 content"><?= $renderedFooter ?></footer>
         </main>
         <script>
