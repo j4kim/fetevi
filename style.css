@@ -195,6 +195,7 @@ footer {
     background-color: var(--floor-2);
     color: white;
     text-decoration: none;
+    text-align: center;
 }
 .content .btn:hover {
     color: white;
