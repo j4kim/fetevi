@@ -33,12 +33,12 @@ main {
 header {
     position: absolute;
     z-index: 2;
-    padding: 10vw;
+    padding: 0 10vw;
 }
 header h1 {
     transform: skewY(-12deg);
     line-height: 0.9;
-    margin: 10vw 0;
+    margin: var(--header-margin, 20vw) 0;
     font-weight: 900;
 }
 header h1 div:first-child {
@@ -50,7 +50,7 @@ header h1 div:nth-child(2) {
     text-transform: uppercase;
 }
 header h1 div:last-child {
-    font-size: 7vw;
+    font-size: 8vw;
     line-height: 1;
 }
 
@@ -188,4 +188,24 @@ footer {
 }
 .content svg {
     fill: currentColor;
+}
+
+@media (min-width: 840px) {
+    :root {
+        --font-size: 1.25rem;
+    }
+}
+
+@media (min-width: 1000px) {
+    :root {
+        --font-size: 1.35rem;
+        --header-margin: 12vw;
+    }
+}
+
+@media (min-width: 1200px) {
+    :root {
+        --font-size: 1.4rem;
+        --header-margin: 8vw;
+    }
 }
