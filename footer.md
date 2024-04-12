@@ -36,10 +36,6 @@ Suivez-nous sur nos réseaux:
 <p>
     <small>
         Site créé avec ❤️ par
-        <a
-            href="https://3sdl.ch"
-            target="_blank"
-            >3sdl.ch</a
-        >
+        <a href="https://3sdl.ch" target="_blank">3sdl.ch</a>
     </small>
 </p>
