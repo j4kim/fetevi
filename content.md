@@ -12,7 +12,7 @@
 
 ### Samedi 8 juin 2024
 
-* **10:30:** Début de la ballade gourmande
+* **10:30:** Ballade gourmande
     * Départ du Bugnon jusqu’à 13:00 maximum
     * Uniquement sur inscription ci-dessous ou dans les commerces du village  
     <a class="btn" href="https://forms.gle/AqY9ZGA2ipQvoPmx8" target="_blank">Formulaire d'inscription</a>
