@@ -15,7 +15,7 @@
 * **10:30:** Ballade gourmande
     * Départ du Bugnon jusqu’à 13:00 maximum
     * Uniquement sur inscription ci-dessous ou dans les commerces du village  
-    <a class="btn" href="https://forms.gle/AqY9ZGA2ipQvoPmx8" target="_blank">Formulaire d'inscription</a>
+    <a class="btn" href="https://docs.google.com/forms/d/e/1FAIpQLSeixsLadFwEtv32wbAh3nv7vWr49artu-T2bgxlyBxFNG5McA/viewform" target="_blank">Formulaire d'inscription</a>
 * **17:00:** Bipédibus revisité
     * Course relai en binôme enfant-adulte
     * Iscription prochainement disponible ici !!!
