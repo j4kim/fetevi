@@ -18,7 +18,7 @@
     <a class="btn" href="https://docs.google.com/forms/d/e/1FAIpQLSeixsLadFwEtv32wbAh3nv7vWr49artu-T2bgxlyBxFNG5McA/viewform" target="_blank">Formulaire d'inscription</a>
 * **17:00:** Bipédibus revisité
     * Course relai en binôme enfant-adulte
-    * Inscription prochainement disponible ici !!!
+    * <a class="btn" href="https://docs.google.com/forms/d/e/1FAIpQLSdLsYEkdGROmuKlpnMb1XbJE9THYkISr7Z9LMEA5p7TfqWw-w/viewform?pli=1" target="_blank">Formulaire d'inscription</a>
 * **22:00** Soirée
     * DJ Rumo !!!
    
