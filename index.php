@@ -4,6 +4,7 @@ use League\CommonMark\CommonMarkConverter;
 
 $converter = new CommonMarkConverter();
 
+$renderedHeader = $converter->convert(file_get_contents('header.md'))->getContent();
 $renderedContent = $converter->convert(file_get_contents('content.md'))->getContent();
 $articles = explode('<hr />', $renderedContent);
 $renderedFooter = $converter->convert(file_get_contents('footer.md'))->getContent();
@@ -26,15 +27,12 @@ $renderedFooter = $converter->convert(file_get_contents('footer.md'))->getConten
     <body>
         <main>
             <header>
-                <h1 class="uppercase">Fête Vi’</h1>
-                <h3 class="uppercase">Les Ponts-de-Martel</h3>
-                <h2 class="uppercase">20-21 juin 2025</h2>
-                <h4>Salle du Bugnon</h4>
+                <?= $renderedHeader ?>
             </header>
             <?php foreach($articles as $article): ?>
                 <article><?= $article ?></article>
             <?php endforeach; ?>
-            <footer><?= $renderedFooter ?></footer>
         </main>
+        <footer><?= $renderedFooter ?></footer>
     </body>
 </html>
