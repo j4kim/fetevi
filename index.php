@@ -29,9 +29,12 @@ $renderedFooter = $converter->convert(file_get_contents('footer.md'))->getConten
             <header>
                 <?= $renderedHeader ?>
             </header>
-            <?php foreach($articles as $article): ?>
-                <article><?= $article ?></article>
-            <?php endforeach; ?>
+            <div class="content">
+                <?php foreach($articles as $article): ?>
+                    <article><?= $article ?></article>
+                <?php endforeach; ?>
+                <div class="spacer"></div>
+            </div>
         </main>
         <footer><?= $renderedFooter ?></footer>
     </body>
