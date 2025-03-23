@@ -19,7 +19,7 @@ $renderedFooter = $converter->convert(file_get_contents('footer.md'))->getConten
         <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
         <link href="https://fonts.googleapis.com/css2?family=Modak&display=swap" rel="stylesheet">
         <link rel="stylesheet" href="style.css" />
-        <link rel="icon" href="svg/logo.svg">
+        <link rel="icon" href="svg/logo-simple.svg">
 
         <!-- Primary Meta Tags -->
         <title>FÊTE VI' Les Ponts de Martel</title>
