@@ -4,8 +4,9 @@ Petit site pour la fête villageoise des Ponts-de-Martel.
 
 ## Mise à jour du contenu
 
-Le contenu provient de deux fichiers [Markdown](https://fr.wikipedia.org/wiki/Markdown) dans ce dépôt:
-- [content.md](content.md): le contenu principal, dans le rectangle blanc.
+Le contenu provient de trois fichiers [Markdown](https://fr.wikipedia.org/wiki/Markdown) dans ce dépôt:
+- [header.md](header.md): les titres.
+- [content.md](content.md): le contenu principal, est divisé en rectangles blancs en utilisant le séparateur `---`.
 - [footer.md](footer.md): le pied de page. Qui contient un pavé de code HTML pour afficher les boutons pour les réseaux sociaux, mais du texte peut-être ajouté au dessus.
 
 Pour modifier le contenu, cliquer sur le bouton crayon "Edit this file" depuis la page du fichier.
