@@ -1,0 +1,62 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<svg id="_1-2" data-name="1-2" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" viewBox="0 0 820 820">
+  <defs>
+    <clipPath id="clippath">
+      <circle cx="409.4" cy="410.6" r="298" fill="none"/>
+    </clipPath>
+  </defs>
+  <g clip-path="url(#clippath)">
+    <g>
+      <ellipse cx="410" cy="663.7" rx="275.4" ry="480.2" fill="#663a3c"/>
+      <g>
+        <circle cx="510" cy="407.5" r="14.4" fill="#fff"/>
+        <circle cx="310" cy="407.5" r="14.4" fill="#fff"/>
+      </g>
+      <g>
+        <path d="M517.1,573c0,59.2-48,51.5-107.2,51.5s-107.2,7.7-107.2-51.5,48-125.8,107.2-125.8,107.2,66.7,107.2,125.8Z" fill="#fff"/>
+        <g>
+          <ellipse cx="449.8" cy="560.8" rx="16.9" ry="25.9" fill="#663a3c"/>
+          <ellipse cx="370.2" cy="560.8" rx="16.9" ry="25.9" fill="#663a3c"/>
+        </g>
+        <g>
+          <path d="M351.9,624.5c-29.1,0-87.5-13.9-77.3-89.5,49.4,80.5,111.2,89.5,77.3,89.5Z" fill="#fff"/>
+          <path d="M468.1,624.5c29.1,0,87.5-13.9,77.3-89.5-49.4,80.5-111.2,89.5-77.3,89.5Z" fill="#fff"/>
+        </g>
+      </g>
+    </g>
+  </g>
+  <path d="M409.4,112.6c40.3,0,79.3,7.9,116,23.4,35.5,15,67.4,36.5,94.8,63.9,27.4,27.4,48.9,59.3,63.9,94.8,15.5,36.7,23.4,75.7,23.4,116s-7.9,79.3-23.4,116c-15,35.5-36.5,67.4-63.9,94.8-27.4,27.4-59.3,48.9-94.8,63.9-36.7,15.5-75.7,23.4-116,23.4s-79.3-7.9-116-23.4c-35.5-15-67.4-36.5-94.8-63.9-27.4-27.4-48.9-59.3-63.9-94.8-15.5-36.7-23.4-75.7-23.4-116s7.9-79.3,23.4-116c15-35.5,36.5-67.4,63.9-94.8,27.4-27.4,59.3-48.9,94.8-63.9,36.7-15.5,75.7-23.4,116-23.4M409.4,11.2C188.8,11.2,10,190,10,410.6s178.8,399.4,399.4,399.4,399.4-178.8,399.4-399.4S630,11.2,409.4,11.2h0Z" fill="#dab952"/>
+  <circle cx="409.4" cy="410.6" r="298" fill="none"/>
+  <circle cx="409.4" cy="410.6" r="399.4" fill="none"/>
+  <text transform="translate(29.5 431.4) rotate(83.2)" fill="#663a3c" font-family="Modak, Modak" font-size="96.3"><tspan x="0" y="0">L</tspan></text>
+  <text transform="translate(36.8 488.2) rotate(74.3)" fill="#663a3c" font-family="Modak, Modak" font-size="96.3"><tspan x="0" y="0">E</tspan></text>
+  <text transform="translate(54.3 547.9) rotate(64.7)" fill="#663a3c" font-family="Modak, Modak" font-size="96.3"><tspan x="0" y="0">S</tspan></text>
+  <text transform="translate(81.9 603) rotate(57.8)" fill="#663a3c" font-family="Modak, Modak" font-size="96.3"><tspan x="0" y="0"> </tspan></text>
+  <text transform="translate(96.9 628) rotate(50.9)" fill="#663a3c" font-family="Modak, Modak" font-size="96.3"><tspan x="0" y="0">P</tspan></text>
+  <text transform="translate(138.4 678.2) rotate(40.6)" fill="#663a3c" font-family="Modak, Modak" font-size="96.3"><tspan x="0" y="0">O</tspan></text>
+  <text transform="translate(194.2 724.7) rotate(30.1)" fill="#663a3c" font-family="Modak, Modak" font-size="96.3"><tspan x="0" y="0">N</tspan></text>
+  <text transform="translate(251.9 757.3) rotate(20.2)" fill="#663a3c" font-family="Modak, Modak" font-size="96.3"><tspan x="0" y="0">T</tspan></text>
+  <text transform="translate(313 778.9) rotate(10.4)" fill="#663a3c" font-family="Modak, Modak" font-size="96.3"><tspan x="0" y="0">S</tspan></text>
+  <text transform="translate(377.1 789.2) rotate(2.3)" fill="#663a3c" font-family="Modak, Modak" font-size="96.3"><tspan x="0" y="0">-</tspan></text>
+  <text transform="translate(420.3 791.2) rotate(-6)" fill="#663a3c" font-family="Modak, Modak" font-size="96.3"><tspan x="0" y="0">D</tspan></text>
+  <text transform="translate(487.8 783) rotate(-15.8)" fill="#663a3c" font-family="Modak, Modak" font-size="96.3"><tspan x="0" y="0">E</tspan></text>
+  <text transform="translate(545.6 765.5) rotate(-23.6)" fill="#663a3c" font-family="Modak, Modak" font-size="96.3"><tspan x="0" y="0">-</tspan></text>
+  <text transform="translate(585.9 748.5) rotate(-32.8)" fill="#663a3c" font-family="Modak, Modak" font-size="96.3"><tspan x="0" y="0">M</tspan></text>
+  <text transform="translate(650.5 705.5) rotate(-44.1)" fill="#663a3c" font-family="Modak, Modak" font-size="96.3"><tspan x="0" y="0">A</tspan></text>
+  <text transform="translate(701.3 655) rotate(-54.5)" fill="#663a3c" font-family="Modak, Modak" font-size="96.3"><tspan x="0" y="0">R</tspan></text>
+  <text transform="translate(739.4 600.4) rotate(-64.3)" fill="#663a3c" font-family="Modak, Modak" font-size="96.3"><tspan x="0" y="0">T</tspan></text>
+  <text transform="translate(766.5 542.3) rotate(-73.7)" fill="#663a3c" font-family="Modak, Modak" font-size="96.3"><tspan x="0" y="0">E</tspan></text>
+  <text transform="translate(783.1 482.2) rotate(-83)" fill="#663a3c" font-family="Modak, Modak" font-size="96.3"><tspan x="0" y="0">L</tspan></text>
+  <text transform="translate(245.8 145.1) rotate(-27)" fill="#663a3c" font-family="Modak, Modak" font-size="96.3"><tspan x="0" y="0">F</tspan></text>
+  <text transform="translate(291.1 121.9) rotate(-17.4)" fill="#663a3c" font-family="Modak, Modak" font-size="96.3"><tspan x="0" y="0">Ê</tspan></text>
+  <text transform="translate(339.6 106.3) rotate(-7.6)" fill="#663a3c" font-family="Modak, Modak" font-size="96.3"><tspan x="0" y="0">T</tspan></text>
+  <text transform="translate(393.6 99.1) rotate(1.9)" fill="#663a3c" font-family="Modak, Modak" font-size="96.3"><tspan x="0" y="0">E</tspan></text>
+  <text transform="translate(445.2 101.6) rotate(8.6)" fill="#663a3c" font-family="Modak, Modak" font-size="96.3"><tspan x="0" y="0"> </tspan></text>
+  <text transform="translate(467 103.7) rotate(16.1)" fill="#663a3c" font-family="Modak, Modak" font-size="96.3"><tspan x="0" y="0">V</tspan></text>
+  <text transform="translate(523.1 120.9) rotate(24.3)" fill="#663a3c" font-family="Modak, Modak" font-size="96.3"><tspan x="0" y="0">I</tspan></text>
+  <text transform="translate(551.4 133.7) rotate(29.6)" fill="#663a3c" font-family="Modak, Modak" font-size="96.3"><tspan x="0" y="0">’</tspan></text>
+  <g>
+    <path d="M262.7,376.2s-91.6-64.2-101.9-102.8c-10.3-38.6,36.9-140,36.9-140,0,0,91.6,64.2,101.9,102.8,10.3,38.6-36.9,140-36.9,140Z" fill="#663a3c"/>
+    <path d="M557.3,376.2s91.6-64.2,101.9-102.8c10.3-38.6-36.9-140-36.9-140,0,0-91.6,64.2-101.9,102.8-10.3,38.6,36.9,140,36.9,140Z" fill="#663a3c"/>
+  </g>
+</svg>

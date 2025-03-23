@@ -20,7 +20,7 @@ $renderedFooter = $converter->convert(file_get_contents('footer.md'))->getConten
         <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
         <link href="https://fonts.googleapis.com/css2?family=Modak&display=swap" rel="stylesheet">
         <link rel="stylesheet" href="style.css" />
-        <link rel="icon" href="svg/moon.svg">
+        <link rel="icon" href="svg/logo.svg">
     </head>
     <body>
         <main>
@@ -34,6 +34,9 @@ $renderedFooter = $converter->convert(file_get_contents('footer.md'))->getConten
                 <div class="spacer"></div>
             </div>
         </main>
-        <footer><?= $renderedFooter ?></footer>
+        <footer>
+            <img src="svg/logo.svg" width="100px"/>
+            <?= $renderedFooter ?>
+        </footer>
     </body>
 </html>
