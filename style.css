@@ -3,6 +3,7 @@
     -webkit-font-smoothing: antialiased;
     -moz-osx-font-smoothing: grayscale;
     --aspect-ratio: 0.2;
+    --bg-img: url(svg/bg-0.2.svg);
     --font-size: 1rem;
     --main-padding: 4vw;
     --article-padding: 1em;
@@ -14,6 +15,7 @@
 @media (min-width: 600px) {
     :root {
         --aspect-ratio: 0.3;
+        --bg-img: url(svg/bg-0.3.svg);
         --font-size: 1.15rem;
         --main-padding: 10vw;
         --article-padding: 1.5em;
@@ -52,7 +54,7 @@ main :is(p, ul, h1, h2, h3, h4) {
 
 main {
     aspect-ratio: var(--aspect-ratio);
-    background-image: url(svg/bg.svg);
+    background-image: var(--bg-img);
     background-repeat: no-repeat;
     background-size: cover;
     background-position: bottom;
