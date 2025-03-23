@@ -1,4 +1,4 @@
-# Vendredi 20 juin
+# Vendredi 20 juin 2025
 
 * **18:00:** Ouverture de la fête
     * Afterwork
@@ -10,7 +10,7 @@
 
 ---
 
-# Samedi 21 juin
+# Samedi 21 juin 2025
 
 * **10:30:** Balade gourmande
     * Départ du Bugnon jusqu’à 13:00 maximum
