@@ -8,6 +8,8 @@ $renderedHeader = $converter->convert(file_get_contents('header.md'))->getConten
 $renderedContent = $converter->convert(file_get_contents('content.md'))->getContent();
 $articles = explode('<hr />', $renderedContent);
 $renderedFooter = $converter->convert(file_get_contents('footer.md'))->getContent();
+
+$meta = json_decode(file_get_contents("meta.json"));
 ?>
 
 <!DOCTYPE html>
@@ -22,22 +24,22 @@ $renderedFooter = $converter->convert(file_get_contents('footer.md'))->getConten
         <link rel="icon" href="svg/logo-simple.svg">
 
         <!-- Primary Meta Tags -->
-        <title>FÊTE VI' Les Ponts de Martel</title>
-        <meta name="title" content="FÊTE VI' Les Ponts de Martel" />
-        <meta name="description" content="Fête villageoise des Ponts-de-Martel, les 20 et 21 juin 2025 à la salle du Bugnon." />
+        <title><?= $meta->title ?></title>
+        <meta name="title" content="<?= $meta->title ?>" />
+        <meta name="description" content="<?= $meta->description ?>" />
 
         <!-- Open Graph / Facebook -->
         <meta property="og:type" content="website" />
         <meta property="og:url" content="https://fetevi.ch" />
-        <meta property="og:title" content="FÊTE VI' Les Ponts de Martel" />
-        <meta property="og:description" content="Fête villageoise des Ponts-de-Martel, les 20 et 21 juin 2025 à la salle du Bugnon." />
+        <meta property="og:title" content="<?= $meta->title ?>" />
+        <meta property="og:description" content="<?= $meta->description ?>" />
         <meta property="og:image" content="svg/logo.svg" />
 
         <!-- Twitter -->
         <meta property="twitter:card" content="summary_large_image" />
         <meta property="twitter:url" content="https://fetevi.ch" />
-        <meta property="twitter:title" content="FÊTE VI' Les Ponts de Martel" />
-        <meta property="twitter:description" content="Fête villageoise des Ponts-de-Martel, les 20 et 21 juin 2025 à la salle du Bugnon." />
+        <meta property="twitter:title" content="<?= $meta->title ?>" />
+        <meta property="twitter:description" content="<?= $meta->description ?>" />
         <meta property="twitter:image" content="svg/logo.svg" />
     </head>
     <body>

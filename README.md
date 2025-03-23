@@ -13,6 +13,8 @@ Pour modifier le contenu, cliquer sur le bouton crayon "Edit this file" depuis l
 Le fichier est ouvert dans un éditeur Markdown. Le bouton "Preview" permet de voir comment ce sera rendu.
 Vous pouvez modifier le contenu puis cliquer sur le bouton "Commit changes...", laisser les options par défaut et cliquer sur "Commit changes".
 
+Le fichier [JSON](https://fr.wikipedia.org/wiki/JSON) [meta.json](meta.json) peut aussi être modifié pour adapter les informations affichées dans l'aperçu du site lors du partage par lien ou sur Google.
+
 ## Développement
 
 ### Installer les dépendances PHP
