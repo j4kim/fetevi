@@ -29,6 +29,6 @@ Le fichier [JSON](https://fr.wikipedia.org/wiki/JSON) [meta.json](meta.json) peu
 
 Le déploiement est fait par GitHub qui envoie un appel par webhook au script `webhook-target.php`.
 
-Tous les événements push sur la branche main déclenche une mise à jour.
+Tous les événements push sur la branche main déclenchent une mise à jour.
 
 La fonction php `shell_exec` doit être activée sur la config du site sur Infomaniak.
