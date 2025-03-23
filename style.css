@@ -39,6 +39,7 @@
 @media (min-width: 1200px) {
     :root {
         --aspect-ratio: 0.8;
+        --bg-img: url(svg/bg-0.8.svg);
         --font-size: 1.25rem;
         --main-padding: 2vw;
         --article-padding: 1.5em;
