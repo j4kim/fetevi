@@ -36,6 +36,29 @@
     }
 }
 
+@media (min-width: 1200px) {
+    :root {
+        --aspect-ratio: 0.8;
+        --font-size: 1.25rem;
+        --main-padding: 2vw;
+        --article-padding: 1.5em;
+        --header-padding: 6vw;
+        --header-font-size: 3.6vw;
+        --spacer-aspect-ratio: 0;
+    }
+    main {
+        flex-direction: row !important;
+    }
+    main header, main .content {
+        width: 100%;
+    }
+    main .content {
+        justify-content: flex-start;
+        padding-top: 6vw;
+        gap: 4em;
+    }
+}
+
 /* Reset */
 
 body {
