@@ -60,6 +60,14 @@
     }
 }
 
+@media (min-width: 1500px) {
+    :root {
+        --font-size: 1.4rem;
+        --main-padding: 4vw;
+        --article-padding: 1.5em;
+    }
+}
+
 /* Reset */
 
 body {
