@@ -42,7 +42,7 @@
     * Assortiment de fromages et ses petits accompagnements et verre de rouge
     * Bûche glacée de la Glace de la Ferme, café ou thé et verre de goutte
   
-*Possibilité de s’inscrire à la balade sans les vins, avec un verre de minérale à chaque stand. Toutes les formules possibles sont listées ci-dessous. 
+Possibilité de s’inscrire à la balade sans les vins, avec un verre de minérale à chaque stand. Toutes les formules possibles sont listées ci-dessous. 
 La marche est une boucle d’environ 3 km dans les marais des Ponts-de-Martel, entièrement accessible aux personnes à mobilité réduite et aux poussettes. Tous les arrêts se font dans des lieux abrités ; l’événement a lieu par tous les temps. 
 La balade débute au centre polyvalent du Bugnon. Le paiement se fait sur place, en cash ou par Twint. 
 Les départs pour la balade sont possibles entre 10h30 et 13h00. Les stands ferment à 16h. 
