@@ -3,10 +3,9 @@
 * **18:00:** Ouverture de la fête
     * Afterwork
     * Divers stands de nourriture et de boisson
-* **18:30:** Cortège du village
-* **20:00:** Partie officielle
-* **21:00:** Concert du groupe : Reprise - Reprise !!!
-* **22:30:** Disco
+* **18:45:** Cortège du village
+* **20:00:** Partie officielle avec le groupe MMB
+* **22:30:** DJ Sanglier
 
 ---
 
@@ -14,7 +13,8 @@
 
 * **10:30:** Balade gourmande
     * Départ du Bugnon jusqu’à 13:00 maximum
-    * Uniquement sur inscription : le délai d'inscription était au 31.05, veuillez-vous adresser directement au +41796875923,vous aurez peut-être la chance de quand même y participer !!!
+    * Uniquement sur inscription : le délai d'inscription au 13 Juin 2025 !!!
+    *  <a class="btn" href="[https://docs.google.com/forms/d/e/1FAIpQLSdLsYEkdGROmuKlpnMb1XbJE9THYkISr7Z9LMEA5p7TfqWw-w/viewform?pli=1" target="_blank](https://forms.gle/ERVmxYtLQGJLADv2A)">Formulaire d'inscription</a>
 
 * **17:00:** Bipédibus revisité
     * Course relai en binôme enfant-adulte
@@ -22,3 +22,30 @@
 * **22:00** Soirée
     * DJ Rumo !!!
    
+
+
+# Menu de la Balade Gourmande:
+
+* Menu Normal:
+    * Petits salés et verre de blanc
+    * Mini Caprese et verre de blanc
+    * Moules, poulpes et crevettes grillées à la plancha et verre de blanc
+    * Rôti neuchâtelois en sauce, gratin dauphinois, petits pois et verre de rouge. Animation musicale.
+    * Assortiment de fromages et ses petits accompagnements et verre de rouge
+    * Bûche glacée de la Glace de la Ferme, café ou thé et verre de goutte
+
+ * Menu Végétarien:
+    * Petits salés et verre de blanc
+    * Mini Caprese et verre de blanc
+    * Légumes grillés à la plancha et verre de blanc
+    * Steak végétal en sauce, gratin dauphinois, petits pois et verre de rouge. Animation musicale.
+    * Assortiment de fromages et ses petits accompagnements et verre de rouge
+    * Bûche glacée de la Glace de la Ferme, café ou thé et verre de goutte
+  
+*Possibilité de s’inscrire à la balade sans les vins, avec un verre de minérale à chaque stand. Toutes les formules possibles sont listées ci-dessous. 
+La marche est une boucle d’environ 3 km dans les marais des Ponts-de-Martel, entièrement accessible aux personnes à mobilité réduite et aux poussettes. Tous les arrêts se font dans des lieux abrités ; l’événement a lieu par tous les temps. 
+La balade débute au centre polyvalent du Bugnon. Le paiement se fait sur place, en cash ou par Twint. 
+Les départs pour la balade sont possibles entre 10h30 et 13h00. Les stands ferment à 16h. 
+
+
+
