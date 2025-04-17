@@ -14,11 +14,11 @@
 * **10:30:** Balade gourmande
     * Départ du Bugnon jusqu’à 13:00 maximum
     * Uniquement sur inscription : le délai d'inscription au 13 Juin 2025 !!!
-    *  <a class="btn" href="[https://docs.google.com/forms/d/e/1FAIpQLSdLsYEkdGROmuKlpnMb1XbJE9THYkISr7Z9LMEA5p7TfqWw-w/viewform?pli=1" target="_blank](https://forms.gle/ERVmxYtLQGJLADv2A)">Formulaire d'inscription</a>
-
+    *  <a class="btn" href="[[https://docs.google.com/forms/d/e/1FAIpQLSdLsYEkdGROmuKlpnMb1XbJE9THYkISr7Z9LMEA5p7TfqWw-w/viewform?pli=1" target="_blank](https://forms.gle/ERVmxYtLQGJLADv2A)">Formulaire d'inscription</a>
+](https://docs.google.com/forms/d/e/1FAIpQLSci0dNkutuDgIKJjmMfraJmsdNg9VC_Vpp3AOH818mbJ1Ce6A/viewform)
 * **17:00:** Bipédibus revisité
     * Course relai en binôme enfant-adulte
-    * <a class="btn" href="https://docs.google.com/forms/d/e/1FAIpQLSdLsYEkdGROmuKlpnMb1XbJE9THYkISr7Z9LMEA5p7TfqWw-w/viewform?pli=1" target="_blank">Formulaire d'inscription</a>
+    * <a class="btn" href="https://docs.google.com/forms/d/e/1FAIpQLSc8LMce-oru6eScRyom9K_OvVlRnUolXLM8qlEBujOHuSPxNw/viewform
 * **22:00** Soirée
     * DJ Rumo !!!
    
