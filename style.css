@@ -8,7 +8,7 @@
     --main-padding: 4vw;
     --article-padding: 1em;
     --header-padding: 6vw;
-    --header-font-size:7vw;
+    --header-font-size: 7vw;
     --spacer-aspect-ratio: 1;
 }
 
@@ -50,7 +50,8 @@
     main {
         flex-direction: row !important;
     }
-    main header, main .content {
+    main header,
+    main .content {
         width: 100%;
     }
     main .content {
@@ -74,7 +75,7 @@ body {
     margin: 0;
     padding: 0;
     overflow-x: hidden;
-    background-color: #3B3A97;
+    background-color: #3b3a97;
     font-family: system-ui;
     font-size: var(--font-size);
 }
@@ -83,8 +84,10 @@ main :is(p, ul, h1, h2, h3, h4) {
     margin: 0;
 }
 
-a {
+a,
+summary {
     color: #6a50c6;
+    cursor: pointer;
 }
 
 /* Main */
