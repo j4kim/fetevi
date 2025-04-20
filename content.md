@@ -21,7 +21,9 @@
 * **22:00** Soirée
     * DJ Rumo !!!
 
-## Menu de la Balade Gourmande
+<details>
+
+<summary>Menu de la Balade Gourmande</summary>
 
 * Menu Normal:
     * Petits salés et verre de blanc
@@ -44,5 +46,4 @@ La marche est une boucle d’environ 3 km dans les marais des Ponts-de-Martel, e
 La balade débute au centre polyvalent du Bugnon. Le paiement se fait sur place, en cash ou par Twint. 
 Les départs pour la balade sont possibles entre 10h30 et 13h00. Les stands ferment à 16h. 
 
-
-
+</details>
