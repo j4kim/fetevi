@@ -46,3 +46,5 @@ La balade débute au centre polyvalent du Bugnon. Le paiement se fait sur place,
 Les départs pour la balade sont possibles entre 10h30 et 13h00. Les stands ferment à 16h. 
 
 </details>
+
+<!-- webhook test -->
