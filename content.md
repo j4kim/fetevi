@@ -13,7 +13,7 @@
 
 * **10:30:** Balade gourmande
     * Départ du Bugnon jusqu’à 13:00 maximum
-    * Uniquement sur inscription : le délai d'inscription est dépassé! Pour toutes demandes ou informations, veuillez écrire un message au 079 / 534 40 27 
+    * Uniquement sur inscription : le délai d'inscription est dépassé! Pour toutes demandes ou informations, veuillez écrire un message au 079 / 534 40 27.
 * **17:00:** Bipédibus revisité
     * Course relai en binôme enfant-adulte
     * <a class="btn" href="https://docs.google.com/forms/d/e/1FAIpQLSc8LMce-oru6eScRyom9K_OvVlRnUolXLM8qlEBujOHuSPxNw/viewform">Formulaire d'inscription</a>
