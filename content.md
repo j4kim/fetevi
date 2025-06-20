@@ -16,7 +16,7 @@
     * Uniquement sur inscription : le délai d'inscription est dépassé. Pour toutes demandes ou informations, veuillez écrire un message au 079 / 534 40 27.
 * **17:00:** Bipédibus revisité
     * Course relai en binôme enfant-adulte
-    * <a class="btn" href="https://docs.google.com/forms/d/e/1FAIpQLSc8LMce-oru6eScRyom9K_OvVlRnUolXLM8qlEBujOHuSPxNw/viewform">Formulaire d'inscription</a>
+    * Les inscriptions restantes se feront sur place directement!
 * **22:00** Soirée
     * DJ Rumo !!!
 
