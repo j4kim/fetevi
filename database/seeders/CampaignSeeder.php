@@ -14,8 +14,9 @@ class CampaignSeeder extends Seeder
     public function run(): void
     {
         Campaign::create([
-            "title" => "",
-            "description" => "",
+            "name" => "2025",
+            "title" => "Fête vi' Les Ponts de Martel",
+            "description" => "Fête villageoise des Ponts-de-Martel, les 20 et 21 juin 2025 à la salle du Bugnon.",
             "template" => "",
             "is_active" => true
         ]);
