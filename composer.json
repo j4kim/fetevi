@@ -1,13 +1,8 @@
 {
     "$schema": "https://getcomposer.org/schema.json",
-    "name": "laravel/laravel",
+    "name": "j4kim/fetevi",
     "type": "project",
-    "description": "The skeleton application for the Laravel framework.",
-    "keywords": [
-        "laravel",
-        "framework"
-    ],
-    "license": "MIT",
+    "description": "Site pour la fête villageoise des Ponts-de-Martel",
     "require": {
         "php": "^8.3",
         "laravel/framework": "^13.0",
