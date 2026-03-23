@@ -23,15 +23,6 @@ class CampaignInfolist
                 TextEntry::make('description')
                     ->placeholder('-'),
                 TextEntry::make('template'),
-                TextEntry::make('articles')
-                    ->placeholder('-')
-                    ->columnSpanFull(),
-                TextEntry::make('header')
-                    ->placeholder('-')
-                    ->columnSpanFull(),
-                TextEntry::make('footer')
-                    ->placeholder('-')
-                    ->columnSpanFull(),
                 IconEntry::make('is_active')
                     ->boolean()
                     ->placeholder('-'),

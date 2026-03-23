@@ -2,8 +2,9 @@
 
 namespace App\Filament\Resources\Campaigns\Schemas;
 
+use Filament\Forms\Components\Repeater;
+use Filament\Forms\Components\RichEditor;
 use Filament\Forms\Components\TextInput;
-use Filament\Forms\Components\Textarea;
 use Filament\Forms\Components\Toggle;
 use Filament\Schemas\Schema;
 
@@ -20,11 +21,18 @@ class CampaignForm
                 TextInput::make('description'),
                 TextInput::make('template')
                     ->required(),
-                Textarea::make('articles')
+                Repeater::make('articles')
+                    ->schema([
+                        TextInput::make('title'),
+                        RichEditor::make('content')
+                            ->json(),
+                    ])
                     ->columnSpanFull(),
-                Textarea::make('header')
+                RichEditor::make('header')
+                    ->json()
                     ->columnSpanFull(),
-                Textarea::make('footer')
+                RichEditor::make('footer')
+                    ->json()
                     ->columnSpanFull(),
                 Toggle::make('is_active'),
             ]);
