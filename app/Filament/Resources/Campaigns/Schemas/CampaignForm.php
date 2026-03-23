@@ -2,8 +2,8 @@
 
 namespace App\Filament\Resources\Campaigns\Schemas;
 
+use Filament\Forms\Components\MarkdownEditor;
 use Filament\Forms\Components\Repeater;
-use Filament\Forms\Components\RichEditor;
 use Filament\Forms\Components\TextInput;
 use Filament\Forms\Components\Toggle;
 use Filament\Schemas\Schema;
@@ -24,15 +24,12 @@ class CampaignForm
                 Repeater::make('articles')
                     ->schema([
                         TextInput::make('title'),
-                        RichEditor::make('content')
-                            ->json(),
+                        MarkdownEditor::make('content'),
                     ])
                     ->columnSpanFull(),
-                RichEditor::make('header')
-                    ->json()
+                MarkdownEditor::make('header')
                     ->columnSpanFull(),
-                RichEditor::make('footer')
-                    ->json()
+                MarkdownEditor::make('footer')
                     ->columnSpanFull(),
                 Toggle::make('is_active'),
             ]);

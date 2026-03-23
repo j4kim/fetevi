@@ -19,8 +19,8 @@ return new class extends Migration
             $table->string("description")->nullable();
             $table->string("template");
             $table->json("articles")->nullable();
-            $table->json("header")->nullable();
-            $table->json("footer")->nullable();
+            $table->text("header")->nullable();
+            $table->text("footer")->nullable();
             $table->boolean("is_active")->nullable();
         });
     }

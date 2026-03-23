@@ -10,8 +10,6 @@ class Campaign extends Model
     {
         return [
             'articles' => 'array',
-            'header' => 'array',
-            'footer' => 'array',
             'is_active' => 'boolean',
         ];
     }
