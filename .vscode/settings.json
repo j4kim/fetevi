@@ -1,6 +1,6 @@
 {
     "[php]": {
-        "editor.formatOnSave": false
+        "editor.formatOnSave": true
     },
     "[markdown]": {
         "editor.formatOnSave": false
