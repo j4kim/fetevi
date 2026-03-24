@@ -15,6 +15,22 @@ class Campaign extends Model
         ];
     }
 
+    protected static function booted(): void
+    {
+        static::saving(function (Campaign $campaign) {
+            if ($campaign->isDirty('is_active') && $campaign->is_active) {
+                $oldActive = Campaign::where('id', '!=', $campaign->id)
+                    ->where('is_active', true)
+                    ->first();
+                if (!$oldActive) {
+                    return;
+                }
+                $oldActive->is_active = false;
+                $oldActive->saveQuietly();
+            }
+        });
+    }
+
     public function view(): View
     {
         return view("themes.$this->theme.index", $this);
