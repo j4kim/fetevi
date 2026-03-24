@@ -2,8 +2,10 @@
 
 namespace App\Filament\Resources\Campaigns\Schemas;
 
+use App\Models\Campaign;
 use Filament\Forms\Components\MarkdownEditor;
 use Filament\Forms\Components\Repeater;
+use Filament\Forms\Components\Select;
 use Filament\Forms\Components\TextInput;
 use Filament\Forms\Components\Toggle;
 use Filament\Schemas\Schema;
@@ -19,7 +21,8 @@ class CampaignForm
                 TextInput::make('title')
                     ->required(),
                 TextInput::make('description'),
-                TextInput::make('theme')
+                Select::make('theme')
+                    ->options(Campaign::themeOptions())
                     ->required(),
                 Toggle::make('is_active'),
                 Repeater::make('articles')

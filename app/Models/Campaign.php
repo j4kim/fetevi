@@ -2,6 +2,7 @@
 
 namespace App\Models;
 
+use Illuminate\Container\Attributes\Storage;
 use Illuminate\Database\Eloquent\Model;
 use Illuminate\View\View;
 
@@ -39,5 +40,14 @@ class Campaign extends Model
     public static function getActive(): ?self
     {
         return self::where('is_active', true)->first();
+    }
+
+    public static function themeOptions(): array
+    {
+        $themePath = resource_path('views/themes');
+        return collect(scandir($themePath))
+            ->filter(fn($path) => is_dir("$themePath/$path") && !str_starts_with($path, '.'))
+            ->mapWithKeys(fn($path) => [$path => $path])
+            ->toArray();
     }
 }
