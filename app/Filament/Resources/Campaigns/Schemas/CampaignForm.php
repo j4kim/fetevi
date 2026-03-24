@@ -8,6 +8,7 @@ use Filament\Forms\Components\Repeater;
 use Filament\Forms\Components\Select;
 use Filament\Forms\Components\TextInput;
 use Filament\Forms\Components\Toggle;
+use Filament\Schemas\Components\Section;
 use Filament\Schemas\Schema;
 
 class CampaignForm
@@ -25,15 +26,21 @@ class CampaignForm
                     ->options(Campaign::themeOptions())
                     ->required(),
                 Toggle::make('is_active'),
+
                 Repeater::make('articles')
                     ->schema([
                         TextInput::make('title'),
                         MarkdownEditor::make('content'),
                     ])
                     ->columnSpanFull(),
-                MarkdownEditor::make('header')
-                    ->columnSpanFull(),
-                MarkdownEditor::make('footer')
+
+                Section::make('Header/Footer')->schema([
+                    MarkdownEditor::make('header'),
+                    MarkdownEditor::make('footer'),
+                ])
+                    ->collapsible()
+                    ->collapsed()
+                    ->persistCollapsed()
                     ->columnSpanFull(),
             ]);
     }
