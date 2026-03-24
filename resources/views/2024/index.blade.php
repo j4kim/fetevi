@@ -13,11 +13,7 @@
 @section('content')
     <main data-scroll-section>
         <header data-scroll data-scroll-speed="-0.1">
-            <h1>
-                <div>Fête</div>
-                <div>villageoise</div>
-                <div>des Ponts-de-Martel</div>
-            </h1>
+            {!! str($header)->markdown() !!}
         </header>
         <img
             id="garland-right"
