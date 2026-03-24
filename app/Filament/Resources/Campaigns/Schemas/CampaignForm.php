@@ -21,6 +21,7 @@ class CampaignForm
                 TextInput::make('description'),
                 TextInput::make('theme')
                     ->required(),
+                Toggle::make('is_active'),
                 Repeater::make('articles')
                     ->schema([
                         TextInput::make('title'),
@@ -31,7 +32,6 @@ class CampaignForm
                     ->columnSpanFull(),
                 MarkdownEditor::make('footer')
                     ->columnSpanFull(),
-                Toggle::make('is_active'),
             ]);
     }
 }
