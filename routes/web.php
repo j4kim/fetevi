@@ -4,7 +4,8 @@ use App\Models\Campaign;
 use Illuminate\Support\Facades\Route;
 
 Route::get('/', function () {
-    return 'hello';
+    $campaign = Campaign::getActive();
+    return $campaign?->view() ?? redirect('archive');
 });
 
 Route::get('/archive', function () {
@@ -12,6 +13,7 @@ Route::get('/archive', function () {
 })->name('archive');
 
 Route::get('/{campaignName}', function (string $campaignName) {
-    $campaign = Campaign::where('name', $campaignName)->firstOrFail();
-    return view("themes.$campaign->theme.index", $campaign);
+    return Campaign::where('name', $campaignName)
+        ->firstOrFail()
+        ->view();
 })->name('campaign');
