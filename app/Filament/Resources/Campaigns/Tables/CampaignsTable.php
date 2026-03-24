@@ -32,7 +32,7 @@ class CampaignsTable
                 TextColumn::make('description')
                     ->searchable()
                     ->toggleable(isToggledHiddenByDefault: true),
-                TextColumn::make('template')
+                TextColumn::make('theme')
                     ->searchable(),
                 IconColumn::make('is_active')
                     ->boolean(),

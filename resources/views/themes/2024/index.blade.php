@@ -7,7 +7,7 @@
     <script src="{{ asset('js/locomotive/locomotive-scroll.min.js') }}"></script>
     <link rel="stylesheet" href="{{ asset('css/locomotive/locomotive-scroll.css') }}" />
     <link rel="icon" href="{{ asset('svg/moon.svg') }}">
-    @include('2024.styles')
+    @include('themes.2024.styles')
 @endsection
 
 @section('content')

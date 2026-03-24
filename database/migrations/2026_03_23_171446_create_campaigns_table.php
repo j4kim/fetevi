@@ -17,7 +17,7 @@ return new class extends Migration
             $table->string("name")->unique();
             $table->string("title");
             $table->string("description")->nullable();
-            $table->string("template");
+            $table->string("theme");
             $table->json("articles")->nullable();
             $table->text("header")->nullable();
             $table->text("footer")->nullable();

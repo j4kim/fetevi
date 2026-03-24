@@ -19,7 +19,7 @@ class CampaignForm
                 TextInput::make('title')
                     ->required(),
                 TextInput::make('description'),
-                TextInput::make('template')
+                TextInput::make('theme')
                     ->required(),
                 Repeater::make('articles')
                     ->schema([

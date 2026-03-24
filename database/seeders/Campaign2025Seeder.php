@@ -17,7 +17,7 @@ class Campaign2025Seeder extends Seeder
             "name" => "2025",
             "title" => "Fête vi' Les Ponts de Martel",
             "description" => "Fête villageoise des Ponts-de-Martel, les 20 et 21 juin 2025 à la salle du Bugnon.",
-            "template" => "2025",
+            "theme" => "2025",
             "is_active" => true,
             "articles" => [
                 [

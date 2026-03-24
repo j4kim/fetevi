@@ -17,7 +17,7 @@ class Campaign2024Seeder extends Seeder
             "name" => "2024",
             "title" => "Fête vi' Les Ponts de Martel",
             "description" => "Fête villageoise des Ponts-de-Martel, les 7 et 8 juin 2024 à la salle du Bugnon.",
-            "template" => "2024",
+            "theme" => "2024",
             "is_active" => false,
             "articles" => [
                 [

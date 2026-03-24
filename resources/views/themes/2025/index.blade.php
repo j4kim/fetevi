@@ -8,7 +8,7 @@
 
     <meta property="og:image" content="{{ asset('svg/logo.svg') }}" />
     <meta property="twitter:image" content="{{ asset('svg/logo.svg') }}" />
-    @include('2025.styles')
+    @include('themes.2025.styles')
 @endsection
 
 @section('content')
