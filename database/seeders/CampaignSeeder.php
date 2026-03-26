@@ -16,6 +16,7 @@ class CampaignSeeder extends Seeder
         $this->call([
             Campaign2024Seeder::class,
             Campaign2025Seeder::class,
+            Campaign2026Seeder::class,
         ]);
     }
 }
