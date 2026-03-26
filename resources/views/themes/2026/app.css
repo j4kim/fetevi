@@ -1,1 +1,31 @@
 @import "tailwindcss";
+
+@import url("https://fonts.googleapis.com/css2?family=Modak&display=swap");
+
+header {
+    padding-top: 3vw;
+    padding-left: 3vw;
+}
+
+header :is(h1, h2, h3, h4) {
+    font-family: "Modak", system-ui;
+    font-weight: 400;
+    margin: 0;
+    line-height: 1;
+}
+
+header h1 {
+    font-size: 12vw;
+}
+
+header h2 {
+    font-size: 6vw;
+}
+
+header h3 {
+    font-size: 4vw;
+}
+
+header h4 {
+    font-size: 4vw;
+}
