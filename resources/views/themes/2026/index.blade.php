@@ -11,7 +11,7 @@
 
 @section('content')
     <main>
-        <header class="bg-amber-800 text-white aspect-3/1">
+        <header class="bg-[url(fetevi2026-06-3-1--40-notext.webp)] bg-contain text-white aspect-3/1">
             {!! str($header)->markdown()->sanitizeHtml() !!}
         </header>
         <div class="p-12 flex gap-12 bg-sky-950 justify-evenly items-start">
