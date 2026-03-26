@@ -27,8 +27,10 @@
             @endforeach
         </div>
     </main>
-    <footer class="bg-linear-to-b flex flex-col items-center gap-4 from-[#124d7e] to-[#3cacc3] py-20 text-white">
-        <img src="svg/logo.svg" class="size-25" />
+    <div class="h-16 bg-[#f5fcfc]"></div>
+    <footer class="bg-linear-to-b flex flex-col items-center gap-4 from-[#124d7e] to-[#3cacc3] pb-20 text-white">
+        <img src="svg/logo.svg"
+            class="-mt-14 mb-12 size-28 rounded-full border border-[#f5fcfc] bg-[#f5fcfc] xl:-mt-20 xl:size-40" />
         {!! str($footer)->markdown() !!}
     </footer>
 @endsection
