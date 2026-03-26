@@ -1,0 +1,74 @@
+@import "tailwindcss";
+@plugin "@tailwindcss/typography";
+
+@import url("https://fonts.googleapis.com/css2?family=Modak&display=swap");
+
+header {
+    padding: 3vw 3vw 0;
+}
+
+header :is(h1, h2, h3, h4) {
+    font-family: "Modak", system-ui;
+    font-weight: 400;
+    margin: 0;
+    line-height: 1;
+}
+
+header h4 {
+    color: #f7e53c;
+}
+
+header {
+    position: relative;
+}
+
+@media (width < 48rem) {
+    header h1 {
+        font-size: 18vw;
+    }
+    header h3 {
+        margin-top: -3vw;
+        font-size: 7vw;
+    }
+    header h2 {
+        position: absolute;
+        bottom: 10vw;
+        right: 3vw;
+        font-size: 7vw;
+    }
+    header h4 {
+        position: absolute;
+        bottom: 3vw;
+        right: 3vw;
+        font-size: 7vw;
+    }
+}
+
+@media (width >= 48rem) {
+    header h1 {
+        font-size: 12vw;
+    }
+    header h2 {
+        font-size: 6vw;
+    }
+    header h3 {
+        font-size: 4vw;
+    }
+    header h4 {
+        font-size: 4vw;
+    }
+}
+
+article {
+    corner-shape: squircle;
+    margin-top: 1em;
+}
+
+article h1 {
+    font-family: "Modak", system-ui;
+    font-weight: 400;
+    margin-top: -1.2em;
+    margin-bottom: 0.2em;
+    line-height: 1;
+    color: #c5498c;
+}
