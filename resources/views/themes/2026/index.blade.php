@@ -11,14 +11,16 @@
 
 @section('content')
     <main>
-        <header class="bg-[url(fetevi2026-06-3-1--40-notext.webp)] bg-contain text-white aspect-3/1 text-shadow-sm">
+        <header
+            class="bg-[url(fetevi2026-06-1-1--40-notext.webp)] bg-contain text-white aspect-square  text-shadow-sm md:aspect-3/1 md:bg-[url(fetevi2026-06-3-1--40-notext.webp)]">
             {!! str($header)->markdown()->sanitizeHtml() !!}
         </header>
-        <div class="p-12 py-20 flex gap-12 text-[#124d7e] justify-evenly items-start bg-[#f5fcfc]">
+        <div
+            class="p-6 md:p-12 py-16 md:py-20 xl:py-28 flex-col flex md:flex-row gap-12 text-[#124d7e] justify-evenly items-start bg-[#f5fcfc]">
             @foreach ($articles as $article)
-                <article class="w-1/2 p-6 max-w-xl shadow-lg border-[#3cacc3] rounded-4xl bg-white">
-                    <h1>{{ $article['title'] }}</h1>
-                    <div class="prose lg:prose-lg">
+                <article class="w-full md:w-1/2 p-4 md:p-6 md:max-w-xl shadow-lg border-[#3cacc3] rounded-4xl bg-white">
+                    <h1 class="text-3xl xl:text-5xl">{{ $article['title'] }}</h1>
+                    <div class="prose lg:prose-lg xl:prose-xl">
                         {!! str($article['content'])->markdown() !!}
                     </div>
                 </article>
