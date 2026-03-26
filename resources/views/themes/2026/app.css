@@ -29,3 +29,18 @@ header h3 {
 header h4 {
     font-size: 4vw;
 }
+
+article {
+    corner-shape: squircle;
+    margin-top: 1em;
+}
+
+article h1 {
+    font-family: "Modak", system-ui;
+    font-weight: 400;
+    font-size: 2em;
+    margin-top: -1em;
+    margin-bottom: 0.4em;
+    line-height: 1;
+    color: #c5498c;
+}
