@@ -1,7 +1,6 @@
+@import url("https://fonts.googleapis.com/css2?family=Modak&display=swap");
 @import "tailwindcss";
 @plugin "@tailwindcss/typography";
-
-@import url("https://fonts.googleapis.com/css2?family=Modak&display=swap");
 
 header {
     padding: 3vw 3vw 0;
