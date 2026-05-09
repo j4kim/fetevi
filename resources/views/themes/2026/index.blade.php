@@ -16,10 +16,11 @@
             {!! str($header)->markdown()->sanitizeHtml() !!}
         </header>
         <div
-            class="grid md:grid-cols-2 justify-items-center items-start gap-12 xl:gap-20 bg-[#f5fcfc] p-6 py-16 text-[#124d7e] md:flex-row md:p-12 md:py-20 xl:py-28 xl:px-30 2xl:px-50">
+            class="xl:px-30 2xl:px-50 grid items-start justify-items-center gap-12 bg-[#f5fcfc] p-6 py-16 text-[#124d7e] md:grid-cols-2 md:flex-row md:p-12 md:py-20 xl:gap-20 xl:py-28">
             @foreach ($articles as $article)
                 <article
-                    class="rounded-4xl w-full border-[#3cacc3] bg-white p-4 shadow-lg max-w-lg md:max-w-xl lg:max-w-2xl xl:mb-12">
+                    id="{{ str($article['title'])->slug() }}"
+                    class="rounded-4xl w-full max-w-lg border-[#3cacc3] bg-white p-4 shadow-lg md:max-w-xl lg:max-w-2xl xl:mb-12">
                     <h1 class="text-3xl xl:text-5xl">{{ $article['title'] }}</h1>
                     <div class="prose lg:prose-lg xl:prose-xl">
                         {!! str($article['content'])->markdown() !!}
