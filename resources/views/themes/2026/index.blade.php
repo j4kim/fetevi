@@ -12,13 +12,13 @@
 @section('content')
     <main>
         <header
-            class="bg-[url(fetevi2026-06-1-1--40-notext.webp)] bg-contain text-white aspect-square  text-shadow-sm md:aspect-3/1 md:bg-[url(fetevi2026-06-3-1--40-notext.webp)]">
+            class="text-shadow-sm md:aspect-3/1 aspect-square bg-[url(fetevi2026-06-1-1--40-notext.webp)] bg-contain text-white md:bg-[url(fetevi2026-06-3-1--40-notext.webp)]">
             {!! str($header)->markdown()->sanitizeHtml() !!}
         </header>
         <div
-            class="p-6 md:p-12 py-16 md:py-20 xl:py-28 flex-col flex md:flex-row gap-12 text-[#124d7e] justify-evenly items-start bg-[#f5fcfc]">
+            class="flex flex-col items-start justify-evenly gap-12 bg-[#f5fcfc] p-6 py-16 text-[#124d7e] md:flex-row md:p-12 md:py-20 xl:py-28">
             @foreach ($articles as $article)
-                <article class="w-full md:w-1/2 p-4 md:p-6 md:max-w-xl shadow-lg border-[#3cacc3] rounded-4xl bg-white">
+                <article class="rounded-4xl w-full border-[#3cacc3] bg-white p-4 shadow-lg md:w-1/2 md:max-w-xl md:p-6">
                     <h1 class="text-3xl xl:text-5xl">{{ $article['title'] }}</h1>
                     <div class="prose lg:prose-lg xl:prose-xl">
                         {!! str($article['content'])->markdown() !!}
@@ -27,8 +27,10 @@
             @endforeach
         </div>
     </main>
-    <footer class="flex flex-col items-center gap-4 py-20 bg-linear-to-b from-[#124d7e] to-[#3cacc3] text-white">
-        <img src="svg/logo.svg" class="size-25" />
+    <div class="h-16 bg-[#f5fcfc]"></div>
+    <footer class="bg-linear-to-b flex flex-col items-center gap-4 from-[#124d7e] to-[#3cacc3] pb-20 text-white">
+        <img src="svg/logo.svg"
+            class="-mt-14 mb-12 size-28 rounded-full border border-[#f5fcfc] bg-[#f5fcfc] xl:-mt-20 xl:size-40" />
         {!! str($footer)->markdown() !!}
     </footer>
 @endsection
