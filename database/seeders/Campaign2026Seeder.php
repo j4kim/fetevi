@@ -17,8 +17,9 @@ class Campaign2026Seeder extends Seeder
             ->replicate()
             ->fill([
                 'name' => '2026',
+                'description' => 'Fête villageoise des Ponts-de-Martel, les 5 et 6 juin 2026 à la salle du Bugnon.',
                 'theme' => '2026',
-                'is_active' => false,
+                'is_active' => true,
                 'header' => <<<MARKDOWN
                     # FÊTE VI’
 
@@ -27,7 +28,16 @@ class Campaign2026Seeder extends Seeder
                     ## 5-6 juin 2026
 
                     #### Salle du Bugnon
-                    MARKDOWN
+                    MARKDOWN,
+                'articles' => collect([
+                    'Vendredi 5 juin',
+                    'Samedi 6 juin',
+                    'Menu de la Balade Gourmande',
+                    'Bipédibus revisité',
+                ])->map(function (string $title) {
+                    $content = file_get_contents(database_path("seeders/2026/$title.md"));
+                    return compact('title', 'content');
+                }),
             ])
             ->save();
     }
